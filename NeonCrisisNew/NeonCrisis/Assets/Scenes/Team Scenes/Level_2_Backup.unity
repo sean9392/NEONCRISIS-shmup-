@@ -1453,7 +1453,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 161879466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9445}
+  m_LocalPosition: {x: 0, y: 0, z: -5392}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1168257284}
@@ -18470,7 +18470,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1978555023}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9445}
+  m_LocalPosition: {x: 0, y: 0, z: -5392}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1561039777}
@@ -18947,9 +18947,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2020172387}
   - component: {fileID: 2020172390}
-  - component: {fileID: 2020172389}
   - component: {fileID: 2020172388}
   - component: {fileID: 2020172391}
+  - component: {fileID: 2020172389}
   m_Layer: 0
   m_Name: Shield_Shader
   m_TagString: Untagged
@@ -19002,18 +19002,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &2020172389
-SphereCollider:
+--- !u!58 &2020172389
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2020172386}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.49999997
 --- !u!33 &2020172390
 MeshFilter:
   m_ObjectHideFlags: 0
