@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Team Scenes/Level_2_Backup.unity
+=======
+- path: Assets/Scenes/Team Scenes/Jamie/Level_UI.unity
+>>>>>>> 0e8a6d1ebbe9bb1dee281ad8361143b68fb6465f
   isLoaded: 1
   isActive: 1
