@@ -88,5 +88,5 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _MKGlowColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MKGlowTexColor: {r: 0.99552417, g: 0.50447583, b: 0.99552417, a: 0}
+    - _MKGlowTexColor: {r: 1, g: 0.5819373, b: 0.9180627, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
