@@ -6,13 +6,13 @@ public class Shield : MonoBehaviour {
    
     public int shield_cost;
     public float shield_time;
-    SpriteRenderer shield_renderer;
+    MeshRenderer shield_renderer;
     CircleCollider2D shield_collider;
     public bool active;
 
 	// Use this for initialization
 	void Start () {
-        shield_renderer = GetComponent<SpriteRenderer>();
+        shield_renderer = GetComponent<MeshRenderer>();
         shield_collider = GetComponent<CircleCollider2D>();
         Deactivate();
 	}

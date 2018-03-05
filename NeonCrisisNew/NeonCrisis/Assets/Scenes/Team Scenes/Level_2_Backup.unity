@@ -18950,7 +18950,7 @@ GameObject:
   - component: {fileID: 2020172388}
   - component: {fileID: 2020172391}
   - component: {fileID: 2020172389}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shield_Shader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18976,7 +18976,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2020172386}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
@@ -19008,7 +19008,7 @@ CircleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2020172386}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
