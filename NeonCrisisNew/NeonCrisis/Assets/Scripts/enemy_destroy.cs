@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class enemy_destroy : MonoBehaviour {
 
-	public GameObject explosion, pickup;
+	public GameObject explosion, splash, pickup;
     public int health;
+
 
 	// Use this for initialization
 	void Start () {
@@ -39,6 +40,8 @@ public class enemy_destroy : MonoBehaviour {
             }
             else
             {
+                GameObject splash_inst = Instantiate(splash, this.transform.position, Quaternion.identity) as GameObject;
+                Destroy(splash_inst, 1);
                 health--;
             }
 		}
