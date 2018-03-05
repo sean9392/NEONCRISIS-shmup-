@@ -1,8 +1,12 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/Team Scenes/Level_2_Backup.unity
 =======
 - path: Assets/Scenes/Team Scenes/Jamie/Level_UI.unity
 >>>>>>> 0e8a6d1ebbe9bb1dee281ad8361143b68fb6465f
+=======
+- path: Assets/Scenes/Team Scenes/Jamie/High_Score_test 2.unity
+>>>>>>> 46e1541191f9d1b2f1821f8dd1c2238fa289fb85
   isLoaded: 1
   isActive: 1
