@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 100012, guid: 160925a6fe2664f2a978566b819f0af0, type: 2}
-  splash: {fileID: 100000, guid: 4f1f96130886bea408faa6a445c56e64, type: 2}
+  splash: {fileID: 100012, guid: d696df58e66919040b179bb9273ce49d, type: 2}
   pickup: {fileID: 1116856615516910, guid: 79dd9c28c02fda746842cf131a286457, type: 2}
   health: 0
 --- !u!212 &212047144752084826

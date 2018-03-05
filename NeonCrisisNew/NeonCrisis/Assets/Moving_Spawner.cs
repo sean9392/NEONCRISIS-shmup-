@@ -10,7 +10,7 @@ public class Moving_Spawner : MonoBehaviour {
     public GameObject enemy_to_spawn;
     public GameObject fire_pattern;
     public int health;
-    
+    public int score;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon_Pickup : MonoBehaviour {
+public class Weapon_Pickup : Pickup {
 
-    public float weapon_speed_multiplier;
+    public float value;
     
 }

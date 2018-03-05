@@ -74,7 +74,7 @@ public class Player_Controller : MonoBehaviour {
         {
             if (pickup_index < 2)
             {
-                shot_delay *= pickup.weapon_speed_multiplier;
+                shot_delay *= pickup.value;
                 pickup_index++;
                 
             }
