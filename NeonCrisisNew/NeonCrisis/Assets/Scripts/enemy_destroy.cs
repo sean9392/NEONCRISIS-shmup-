@@ -25,12 +25,13 @@ public class enemy_destroy : MonoBehaviour {
                 {
                     GameObject explosion_inst = Instantiate(explosion, this.transform.position, Quaternion.identity) as GameObject;
                     Destroy(explosion_inst, 4);
+                    
                 }
                 if (Random.Range(0, 2) == 1 && pickups.Length != 0)
                 {
                     Instantiate(pickups[Random.Range(0, pickups.Length)], this.transform.position, Quaternion.identity);
                 }
-                if (Score_Updater.score_updater != null)
+                if (Score_Updater.score_updater != null && Pickup_Controller.pickup_controller_instance != null)
                 {
                     Score_Updater.score_updater.Add_Score(score_amount * Pickup_Controller.pickup_controller_instance.score_multiplier);
                 }
