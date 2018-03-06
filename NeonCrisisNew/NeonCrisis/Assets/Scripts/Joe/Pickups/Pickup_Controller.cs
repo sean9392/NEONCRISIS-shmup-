@@ -27,7 +27,7 @@ public class Pickup_Controller : MonoBehaviour {
             switch (pickup.pickup_type)
             {
                 case Pickup.pickup_types.damage_multiplier:
-                    StartCoroutine(Apply_Damage_Multiplier(pickup.amount));
+                    Add_Damage();
                     break;
                 case Pickup.pickup_types.score_multiplier:
                     StartCoroutine(Apply_Score_Multiplier(pickup.amount));
@@ -59,29 +59,9 @@ public class Pickup_Controller : MonoBehaviour {
     {
         Laser_Power_Holder.laser_power_holder_instance.Add_Power(_amount);
     }
-
-    IEnumerator Apply_Damage_Multiplier(int _amount)
+    void Add_Damage()
     {
-        damage_multiplier *= _amount;
-        if(player_controller == null)
-        {
-            player_controller = GetComponent<Player_Controller>();
-        }
-        if(player_controller != null)
-        {
-            player_controller.Update_Pickup_Index(damage_multiplier);
-        }
-        yield return new WaitForSeconds(damage_multiplier_time);
-        damage_multiplier = 1;
-        if (player_controller == null)
-        {
-            player_controller = GetComponent<Player_Controller>();
-        }
-        if (player_controller != null)
-        {
-            player_controller.Update_Pickup_Index(damage_multiplier);
-        }
-
+        player_controller.Update_Pickup_Index();
     }
 
     IEnumerator Apply_Score_Multiplier(int _amount)

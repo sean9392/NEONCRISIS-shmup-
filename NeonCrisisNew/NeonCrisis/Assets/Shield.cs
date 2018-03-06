@@ -21,7 +21,7 @@ public class Shield : MonoBehaviour {
     {
         this.transform.position = this.transform.parent.transform.position;
 
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetButtonDown("Fire3"))
         {
             if(Laser_Power_Holder.laser_power_holder_instance != null && Laser_Power_Holder.laser_power_holder_instance.Get_Power() >= shield_cost)
             {

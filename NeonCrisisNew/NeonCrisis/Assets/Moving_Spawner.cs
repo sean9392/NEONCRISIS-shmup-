@@ -31,15 +31,12 @@ public class Moving_Spawner : MonoBehaviour {
                 fire_pattern = Instantiate(Resources.Load("prefabs/TEMP/SHOT_TYPES/Circle_Shot", typeof(GameObject)) as GameObject, this.transform.position, Quaternion.identity);
                 break;
             }
-        GameObject fire_pattern_inst = Instantiate(fire_pattern, this.transform.position, Quaternion.identity);
-        fire_pattern_inst.transform.SetParent(enemy_inst.transform);
-        fire_pattern_inst.transform.localPosition = Vector3.zero;
-        enemy_destroy enemy_destruction = GetComponent<enemy_destroy>();
-        if(enemy_destruction != null)
-        {
-            enemy_destruction.health = health;
-            enemy_destruction.score_amount = score;
-        }
+        fire_pattern.transform.SetParent(enemy_inst.transform);
+        //fire_pattern_inst.transform.localPosition = Vector3.zero;
+        enemy_destroy enemy_destruction = enemy_inst.GetComponent<enemy_destroy>();
+        enemy_destruction.health = health;
+        enemy_destruction.score_amount = score;
+
         Destroy(this.gameObject);
     }
 

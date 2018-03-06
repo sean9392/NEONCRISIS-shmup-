@@ -41,9 +41,9 @@ public class Player_Health : MonoBehaviour {
                 {
                     Score_Updater.score_updater.On_End();
                 }
-                Destroy(this.gameObject);
+                UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
+                //Destroy(this.gameObject);
             }
         }
-
 	}
 }

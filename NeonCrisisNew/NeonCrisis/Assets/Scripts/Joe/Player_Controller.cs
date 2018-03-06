@@ -35,8 +35,7 @@ public class Player_Controller : MonoBehaviour {
         float ver = Input.GetAxis("Vertical");
         Vector3 move = new Vector3(hor * move_speed, ver * move_speed, 0);
         rigidbody.velocity = move;
-
-        if(Input.GetKey(KeyCode.Space))
+        if(Input.GetButtonDown("Fire1"))
         {
             Fire();
         }
@@ -44,16 +43,16 @@ public class Player_Controller : MonoBehaviour {
 
     void Fire()
     {
-        if(bullet != null && shot_position != null && (Time.fixedTime > next_shot_time))
+        if(bullet != null && shot_position != null)
         {
             //do firing
             Instantiate(bullet, shot_position.position, this.transform.rotation);
-            if(pickup_index >= 4)
+            if(pickup_index >= 2)
             {
                 Instantiate(bullet, shot_position_two.position, this.transform.rotation);
                 Instantiate(bullet, shot_position_three.position, this.transform.rotation);
             }
-            if(pickup_index >= 6)
+            if(pickup_index >= 4)
             {
                 Instantiate(bullet, shot_position_four.position, this.transform.rotation);
                 Instantiate(bullet, shot_position_five.position, this.transform.rotation);
@@ -67,16 +66,12 @@ public class Player_Controller : MonoBehaviour {
         }
     }
     
-    public void Update_Pickup_Index(int _index)
+    public void Update_Pickup_Index()
     {
-        pickup_index = _index;
-        if(pickup_index >= 2)
+        pickup_index++;
+        if(pickup_index == 2)
         {
-            shot_delay = init_shot_delay * 2;
-        }
-        else
-        {
-            shot_delay = init_shot_delay;
+            shot_delay /= 2;
         }
     }  
 }

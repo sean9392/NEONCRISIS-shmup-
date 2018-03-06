@@ -17,12 +17,14 @@ public class Score_Updater : MonoBehaviour {
 	
     public void Add_Score()
     {
+        print("SCORE: " + score);
         score++;
         score_text.text = score.ToString();
     }
 
     public void Add_Score(int _amount)
     {
+        print("SCORE: " + score + " AMOUNT: " + _amount);
         score += _amount;
         score_text.text = score.ToString();
     }

@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UI_Health : MonoBehaviour {
 
-    public GameObject[] fill_objects;
+    public Image health_bar;
+    
 
     public static UI_Health ui_health_instance;
 
@@ -15,10 +17,9 @@ public class UI_Health : MonoBehaviour {
 
     public void Update_Health(int _health)
     {
-        int new_health = _health;
-        for(int i = 0; i < fill_objects.Length - new_health; i++)
-        {
-            fill_objects[i].SetActive(false);
-        }
+        print(_health);
+        float div = (float)_health / (float)24;
+        print(div);
+        health_bar.fillAmount = div;
     }
 }
