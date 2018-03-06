@@ -8,6 +8,7 @@ public class Player_Controller : MonoBehaviour {
     public Transform shot_position, shot_position_two, shot_position_three, shot_position_four, shot_position_five;
     Rigidbody2D rigidbody;
     public GameObject bullet;
+    public float init_shot_delay;
     public float shot_delay;
     float next_shot_time;
     public Shield shield;
@@ -18,6 +19,7 @@ public class Player_Controller : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        init_shot_delay = shot_delay;
         rigidbody = GetComponent<Rigidbody2D>();
 
 	}
@@ -46,13 +48,12 @@ public class Player_Controller : MonoBehaviour {
         {
             //do firing
             Instantiate(bullet, shot_position.position, this.transform.rotation);
-            
-            if(pickup_index >= 3)
+            if(pickup_index >= 4)
             {
                 Instantiate(bullet, shot_position_two.position, this.transform.rotation);
                 Instantiate(bullet, shot_position_three.position, this.transform.rotation);
             }
-            if(pickup_index >= 4)
+            if(pickup_index >= 6)
             {
                 Instantiate(bullet, shot_position_four.position, this.transform.rotation);
                 Instantiate(bullet, shot_position_five.position, this.transform.rotation);
@@ -65,32 +66,17 @@ public class Player_Controller : MonoBehaviour {
             }
         }
     }
-
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+    public void Update_Pickup_Index(int _index)
     {
-        Weapon_Pickup pickup = collision.GetComponent<Weapon_Pickup>();
-        if (pickup != null)
+        pickup_index = _index;
+        if(pickup_index >= 2)
         {
-            if (pickup_index < 2)
-            {
-                shot_delay *= pickup.weapon_speed_multiplier;
-                pickup_index++;
-                
-            }
-            if(pickup_index == 2)
-            {
-                pickup_index++;
-            }
-            if(pickup_index == 3)
-            {
-                pickup_index++;
-            }
-            if(pickup_index > 3)
-            {
-                Score_Updater.score_updater.Add_Score(10);
-            }
-            Destroy(pickup.gameObject);
+            shot_delay = init_shot_delay * 2;
         }
-    }    
+        else
+        {
+            shot_delay = init_shot_delay;
+        }
+    }  
 }

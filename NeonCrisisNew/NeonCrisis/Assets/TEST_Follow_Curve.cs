@@ -105,7 +105,10 @@ public class TEST_Follow_Curve : MonoBehaviour {
             {
                 time = 0;
                 curve_index++;
-                current_curve = curves[curve_index];
+                if (curves[curve_index] != null)
+                {
+                    current_curve = curves[curve_index];
+                }
             }
             else
             {
@@ -130,7 +133,10 @@ public class TEST_Follow_Curve : MonoBehaviour {
         {
             Destroy(instantiated_curves[i].gameObject);
         }
-        Destroy(current_curve.gameObject);
+        if (current_curve != null)
+        {
+            Destroy(current_curve.gameObject);
+        }
     }
 
 }
