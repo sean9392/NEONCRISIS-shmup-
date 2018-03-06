@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class enemy_destroy : MonoBehaviour {
 
-	public GameObject explosion, splash, pickup;
+    public GameObject explosion, splash;
+    public GameObject[] pickups;
     public int health;
+    public int score_amount;
 
 
 	// Use this for initialization
@@ -24,13 +26,13 @@ public class enemy_destroy : MonoBehaviour {
                     GameObject explosion_inst = Instantiate(explosion, this.transform.position, Quaternion.identity) as GameObject;
                     Destroy(explosion_inst, 4);
                 }
-                if (Random.Range(0, 5) == 1 && pickup != null)
+                if (Random.Range(0, 2) == 1 && pickups.Length != 0)
                 {
-                    Instantiate(pickup, this.transform.position, Quaternion.identity);
+                    Instantiate(pickups[Random.Range(0, pickups.Length)], this.transform.position, Quaternion.identity);
                 }
                 if (Score_Updater.score_updater != null)
                 {
-                    Score_Updater.score_updater.Add_Score();
+                    Score_Updater.score_updater.Add_Score(score_amount * Pickup_Controller.pickup_controller_instance.score_multiplier);
                 }
                 if(Laser_Power_Holder.laser_power_holder_instance != null)
                 {

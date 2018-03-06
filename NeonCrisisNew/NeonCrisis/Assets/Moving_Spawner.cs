@@ -10,7 +10,7 @@ public class Moving_Spawner : MonoBehaviour {
     public GameObject enemy_to_spawn;
     public GameObject fire_pattern;
     public int health;
-    public int score;
+    public int score = 1;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -38,8 +38,8 @@ public class Moving_Spawner : MonoBehaviour {
         if(enemy_destruction != null)
         {
             enemy_destruction.health = health;
+            enemy_destruction.score_amount = score;
         }
-        
         Destroy(this.gameObject);
     }
 

@@ -2,19 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class destroyonhit : MonoBehaviour {
+public class Player_Health : MonoBehaviour {
 
     public GameObject explosion;
-    int health = 24;
+    public int health = 24;
+    public Shield shield;
 
     // Use this for initialization
     void Start () {
-
 	}
+
+    public void Add_Health(int _amount)
+    {
+        health += _amount;
+        health = Mathf.Clamp(health, 0, 24);
+        UI_Health.ui_health_instance.Update_Health(health);
+    }
 	
 	// Update is called once per frame
 	void OnCollisionEnter2D (Collision2D col) {
-		if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Pew") {
+		if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Pew" && shield.active == false) {
 
             if (explosion != null)
             {

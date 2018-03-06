@@ -152,8 +152,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 100012, guid: 160925a6fe2664f2a978566b819f0af0, type: 2}
   splash: {fileID: 100012, guid: d696df58e66919040b179bb9273ce49d, type: 2}
-  pickup: {fileID: 1116856615516910, guid: 79dd9c28c02fda746842cf131a286457, type: 2}
+  pickups:
+  - {fileID: 1116856615516910, guid: 8f891a5143e44964eab3f1acb4f45630, type: 2}
+  - {fileID: 1116856615516910, guid: 29e681b96a0a2c34281c0c128535cae5, type: 2}
+  - {fileID: 1116856615516910, guid: 25b1b1977b1a9844cbc40bdc3f9ae56c, type: 2}
+  - {fileID: 1116856615516910, guid: 79dd9c28c02fda746842cf131a286457, type: 2}
   health: 0
+  score_amount: 0
 --- !u!212 &212325602853233180
 SpriteRenderer:
   m_ObjectHideFlags: 1
