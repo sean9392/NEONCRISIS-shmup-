@@ -5333,7 +5333,7 @@ Prefab:
     - target: {fileID: 114799504304115634, guid: 204f22075002d344ba81d3f29cdd41c0,
         type: 2}
       propertyPath: health
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 204f22075002d344ba81d3f29cdd41c0, type: 2}
@@ -6968,7 +6968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 9bb7f851a530b55408e6d3bf0d3955aa, type: 2}
+  profile: {fileID: 0}
 --- !u!4 &837633262 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4245131790139256, guid: 161f6fff773057a4caa3bd6f08a90d7e,
