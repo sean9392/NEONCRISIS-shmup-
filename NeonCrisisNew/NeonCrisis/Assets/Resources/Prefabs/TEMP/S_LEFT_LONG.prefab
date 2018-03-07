@@ -68,5 +68,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawn_type: 5
+  shot_type: 3
   enemy_to_spawn: {fileID: 1870090014636174, guid: 0a29a54199ca75d40ab2102782cbd07b,
     type: 2}
+  fire_pattern: {fileID: 0}
+  health: 1
+  score: 5

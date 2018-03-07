@@ -10,7 +10,7 @@ public class TEST_Follow_Curve : MonoBehaviour {
     List<BezierCurve> curves = new List<BezierCurve>();
     List<Vector3> end_positions = new List<Vector3>();
 
-    public BezierCurve current_curve;
+	public BezierCurve current_curve;
 
     int curve_index = 0;
 
@@ -79,6 +79,11 @@ public class TEST_Follow_Curve : MonoBehaviour {
     private void Update()
     {
         time += Time.deltaTime;
+		for (int i = 0; i < end_positions.Count; i++) {
+			if (this.transform.position == end_positions [i]) {
+				Destroy (this.gameObject);
+			}
+		}
     }
 
     private void FixedUpdate()
@@ -94,6 +99,7 @@ public class TEST_Follow_Curve : MonoBehaviour {
             this.transform.position = current_curve.GetPointAt(time * (speed * Time.deltaTime));
             Vector3 target = current_curve.GetPointAt(time * (speed * Time.deltaTime));
             this.transform.position = Vector3.MoveTowards(this.transform.position, target, speed * Time.deltaTime);
+
         }
     }
 
