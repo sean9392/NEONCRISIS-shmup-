@@ -14,6 +14,7 @@ public class Moving_Spawner : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+		print ("ent");
         GameObject enemy_inst = Instantiate(enemy_to_spawn, this.transform.position, this.transform.rotation) as GameObject;
         GameObject fire_pattern = null;
         switch (shot_type)
