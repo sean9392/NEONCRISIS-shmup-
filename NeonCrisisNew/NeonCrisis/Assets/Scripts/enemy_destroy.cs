@@ -12,6 +12,7 @@ public class enemy_destroy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        health = 2;
 
 	}
 	
