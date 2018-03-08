@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Team Scenes/NeonCrisisFinalScene.unity
-=======
-- path: Assets/Scenes/Team Scenes/Vinny.unity
->>>>>>> 2e9fedf5381c1410d900b34f18aca582a39c32aa
   isLoaded: 1
   isActive: 1
