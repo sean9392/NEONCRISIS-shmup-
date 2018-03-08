@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Team Scenes/Conor.unity
+- path: Assets/Scenes/Team Scenes/Vinny.unity
   isLoaded: 1
   isActive: 1
