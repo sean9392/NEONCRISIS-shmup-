@@ -19,10 +19,11 @@ public class Player_Controller : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        
         init_shot_delay = shot_delay;
         rigidbody = GetComponent<Rigidbody2D>();
-
-	}
+        Save_Load_Data.Save_Game("Test", 500);
+    }
 	
 	// Update is called once per frame
 	void Update () {

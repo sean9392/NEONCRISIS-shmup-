@@ -8,7 +8,7 @@ public class enemy_destroy : MonoBehaviour {
     public GameObject[] pickups;
     public int health;
     public int score_amount;
-
+    bool spawned_pickup = false;
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +17,7 @@ public class enemy_destroy : MonoBehaviour {
 	
 	void OnCollisionEnter2D (Collision2D col) {
 
+        print("HIT");
 		if (col.gameObject.CompareTag("Pew")) {            
             if (health <= 0)
             {
@@ -26,9 +27,10 @@ public class enemy_destroy : MonoBehaviour {
                     Destroy(explosion_inst, 4);
                     
                 }
-                if (Random.Range(0, 2) == 1 && pickups.Length != 0)
+                if (Random.Range(0, 2) == 1 && pickups.Length != 0 && spawned_pickup == false)
                 {
                     Instantiate(pickups[Random.Range(0, pickups.Length)], this.transform.position, Quaternion.identity);
+                    spawned_pickup = true;
                 }
                 if (Score_Updater.score_updater != null && Pickup_Controller.pickup_controller_instance != null)
                 {
@@ -42,8 +44,11 @@ public class enemy_destroy : MonoBehaviour {
             }
             else
             {
-                GameObject splash_inst = Instantiate(splash, this.transform.position, Quaternion.identity) as GameObject;
-                Destroy(splash_inst, 1);
+                if (splash != null)
+                {
+                    GameObject splash_inst = Instantiate(splash, this.transform.position, Quaternion.identity) as GameObject;
+                    Destroy(splash_inst, 1);
+                }
                 health--;
             }
 		}
