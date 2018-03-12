@@ -49,8 +49,7 @@ AudioSource:
   m_GameObject: {fileID: 1296938934898950}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 243044077912783296, guid: e52dd7583857fed4999570cf8deb6d04,
-    type: 2}
+  OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 29b69154f1c4382438ffcd9543d8a151, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -137,6 +136,5 @@ MonoBehaviour:
   shot_point: {fileID: 4363883741284718}
   shot_delay: 1
   pew_source: {fileID: 82203410878401326}
-  skip_destroy: 0
   radius: 0.1
   angle_skip: 15

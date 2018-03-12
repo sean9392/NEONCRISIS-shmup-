@@ -9,14 +9,10 @@ public class Shot_Pattern : MonoBehaviour {
     public float shot_delay;
     float next_shot_time;
     public AudioSource pew_source;
-    public bool skip_destroy;
 
     private void Start()
     {
-        if (skip_destroy == false)
-        {
-            Destroy(this.gameObject, 15);
-        }
+        Destroy(this.gameObject, 15);
         this.transform.Rotate(new Vector3(0, 0, 180));
     }
 

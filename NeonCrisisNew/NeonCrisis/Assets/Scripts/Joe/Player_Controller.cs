@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player_Controller : MonoBehaviour {
-    public GameObject laser_weapon;
+
     public float move_speed;
     public Transform shot_position, shot_position_two, shot_position_three, shot_position_four, shot_position_five;
     Rigidbody2D rigidbody;
@@ -19,10 +19,10 @@ public class Player_Controller : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        
         init_shot_delay = shot_delay;
         rigidbody = GetComponent<Rigidbody2D>();
-    }
+
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -38,10 +38,6 @@ public class Player_Controller : MonoBehaviour {
         if(Input.GetButtonDown("Fire1"))
         {
             Fire();
-        }
-        if (Input.GetButtonDown("Fire2"))
-        {
-            Fire_Laser();
         }
     }
 
@@ -66,33 +62,6 @@ public class Player_Controller : MonoBehaviour {
             if (pew_source.isPlaying == false)
             {
                 pew_source.Play();
-            }
-        }
-    }
-
-    void Fire_Laser()
-    {
-        if(Laser_Power_Holder.laser_power_holder_instance != null && Laser_Power_Holder.laser_power_holder_instance.Get_Power() >= 10)
-        {
-            Vector3 position = this.transform.position;
-            position.y += 5;
-            GameObject laser = Instantiate(laser_weapon, position, Quaternion.identity) as GameObject;
-            Destroy(laser, 1);
-            Laser_Power_Holder.laser_power_holder_instance.Take_Power(10);
-
-            //Ray2D ray = new Ray2D(this.transform.position, this.transform.up);
-            RaycastHit2D[] hit_out = Physics2D.CircleCastAll(this.transform.position, 0.5f, this.transform.up, 10);
-            //RaycastHit2D[] hit_out = Physics2D.RaycastAll(position, this.transform.up, 10);
-            for(int i=  0; i < hit_out.Length; i++)
-            {
-                if(hit_out[i].collider != null)
-                {
-                    enemy_destroy enemy = hit_out[i].collider.GetComponent<enemy_destroy>();
-                    if(enemy != null)
-                    {
-                        enemy.Take_Health(100);
-                    }
-                }
             }
         }
     }
