@@ -17,6 +17,7 @@ public class Laser_Power_Holder : MonoBehaviour
     public void Add_Power()
     {
         power_level++;
+        power_level = Mathf.Clamp(power_level, 0, 10);
         Update_Power();
     }
 
@@ -24,6 +25,7 @@ public class Laser_Power_Holder : MonoBehaviour
     {
         
         power_level += _amount;
+        power_level = Mathf.Clamp(power_level, 0, 10);
         Update_Power();
     }
 

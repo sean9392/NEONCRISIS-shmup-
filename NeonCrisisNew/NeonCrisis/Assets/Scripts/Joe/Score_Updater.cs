@@ -46,6 +46,15 @@ public class Score_Updater : MonoBehaviour {
 
     void Test_Highscore_Code()
     {
+        if(PlayerPrefs.HasKey("Current_Score") == false)
+        {
+            PlayerPrefs.SetInt("Current_Score", score);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Current_Score", score);
+        }
+
         if(PlayerPrefs.HasKey("Highscore") == false)
         {
             PlayerPrefs.SetInt("Highscore", score);
