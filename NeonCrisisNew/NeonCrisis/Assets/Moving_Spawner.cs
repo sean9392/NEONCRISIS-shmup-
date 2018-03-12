@@ -11,17 +11,13 @@ public class Moving_Spawner : MonoBehaviour {
     public GameObject fire_pattern;
     public int health;
     public int score = 1;
+    float spawn_time;
 
-<<<<<<< HEAD
-    private void OnTriggerEnter2D(Collider2D collision)
-=======
+
     private void Start()
     {
-<<<<<<< HEAD
         spawn_time = (Time.fixedTime) + (this.transform.position.y / 1.5f) - (6 / 1.5f);
-=======
-        spawn_time = Time.fixedTime + this.transform.position.y - 6;
->>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
+
     }
 
     private void Update()
@@ -33,7 +29,6 @@ public class Moving_Spawner : MonoBehaviour {
     }
 
     void Spawn()
->>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
     {
 		print ("ent");
         GameObject enemy_inst = Instantiate(enemy_to_spawn, this.transform.position, this.transform.rotation) as GameObject;
