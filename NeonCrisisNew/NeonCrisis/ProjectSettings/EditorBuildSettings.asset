@@ -4,4 +4,32 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Team Scenes/Jamie/Jamie_Start_Screen (2).unity
+    guid: a816072b846cc9240b5e824ba64e5dbe
+  - enabled: 1
+<<<<<<< HEAD
+    path: Assets/Scenes/Team Scenes/Level_2_New_Backup.unity
+    guid: 7cd9fe12e348b094783cdf3bc3f13f04
+=======
+    path: Assets/Scenes/Team Scenes/NeonCrisisFinalScene.unity
+    guid: 631f2dec07f5d874f8b76553bd2e7afb
+<<<<<<< HEAD
+  - enabled: 1
+    path: Assets/Scenes/Team Scenes/input_testing.unity
+    guid: 9579a63fa3ef466428fc90f690d46253
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
+>>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+=======
+>>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
+>>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+  - enabled: 1
+    path: Assets/Scenes/Team Scenes/Jamie/High_Score_test 2.unity
+    guid: 64a62c21c355cd842a09c8faa5cef44a
