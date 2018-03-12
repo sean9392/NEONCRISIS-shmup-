@@ -11,8 +11,22 @@ public class Moving_Spawner : MonoBehaviour {
     public GameObject fire_pattern;
     public int health;
     public int score = 1;
+    float spawn_time;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void Start()
+    {
+        spawn_time = Time.fixedTime + this.transform.position.y - 6;
+    }
+
+    private void Update()
+    {
+        if(Time.fixedTime > spawn_time)
+        {
+            Spawn();
+        }
+    }
+
+    void Spawn()
     {
         GameObject enemy_inst = Instantiate(enemy_to_spawn, this.transform.position, this.transform.rotation) as GameObject;
         GameObject fire_pattern = null;

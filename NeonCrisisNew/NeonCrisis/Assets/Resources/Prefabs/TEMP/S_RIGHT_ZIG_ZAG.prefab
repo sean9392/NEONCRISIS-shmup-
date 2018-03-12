@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4392762550061650}
   - component: {fileID: 114737888190848136}
   - component: {fileID: 58459923650194892}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: S_RIGHT_ZIG_ZAG
   m_TagString: Untagged
   m_Icon: {fileID: 0}

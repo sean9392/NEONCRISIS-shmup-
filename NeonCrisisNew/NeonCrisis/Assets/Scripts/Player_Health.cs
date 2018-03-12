@@ -37,13 +37,21 @@ public class Player_Health : MonoBehaviour {
 
             if(health <= 0)
             {
-                if(Score_Updater.score_updater != null)
-                {
-                    Score_Updater.score_updater.On_End();
-                }
-                UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
-                //Destroy(this.gameObject);
+                On_End();
             }
         }
 	}
+
+    public void On_End()
+    {
+        if (Score_Updater.score_updater != null)
+        {
+            Score_Updater.score_updater.On_End();
+        }
+        if (Game_End.game_end_instance != null)
+        {
+            Game_End.game_end_instance.On_End();
+        }
+        Destroy(this.gameObject);
+    }
 }
