@@ -32,10 +32,13 @@ public class Game_End : MonoBehaviour {
 
     IEnumerator End_Game()
     {
+<<<<<<< HEAD
         if (Score_Updater.score_updater != null)
         {
             Score_Updater.score_updater.On_End();
         }
+=======
+>>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
         yield return new WaitForSeconds(5);
         UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
     }

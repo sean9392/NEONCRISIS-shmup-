@@ -902,11 +902,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 9e395b639b7725a419497c1bac9a23ac, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -11.23
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9e395b639b7725a419497c1bac9a23ac, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -6.61
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9e395b639b7725a419497c1bac9a23ac, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2693,7 +2693,6 @@ GameObject:
   - component: {fileID: 837286701}
   - component: {fileID: 837286700}
   - component: {fileID: 837286705}
-  - component: {fileID: 837286706}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2783,6 +2782,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: e3e5ad473b758b6449828884b0de2140, type: 2}
+<<<<<<< HEAD
+=======
 --- !u!82 &837286706
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2863,6 +2864,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+>>>>>>> c7f51444e89ae399f36d2251a1964d69c92f0ecc
 --- !u!1 &864697774
 GameObject:
   m_ObjectHideFlags: 0

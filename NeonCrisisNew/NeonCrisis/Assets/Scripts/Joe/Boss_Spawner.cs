@@ -11,7 +11,11 @@ public class Boss_Spawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+<<<<<<< HEAD
         spawn_time = (Time.fixedTime) + (this.transform.position.y / 1.5f) - (6 / 1.5f);
+=======
+        spawn_time = Time.fixedTime + this.transform.position.y - 6;
+>>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
     }
 	
 	// Update is called once per frame

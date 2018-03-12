@@ -43,7 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MKGlowTex:
-        m_Texture: {fileID: 2800000, guid: ec3ff37758ce2c54489e1f2bce68552d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 74125867d678478479ea851fe2c9b181, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -72,8 +72,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _MKGlowPower: 2.5
-    - _MKGlowTexStrength: 4.32
+    - _MKGlowPower: 1.32
+    - _MKGlowTexStrength: 1.01
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -88,5 +88,13 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _MKGlowColor: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< HEAD
     - _MKGlowTexColor: {r: 1, g: 0.58283377, b: 0.5, a: 0}
+=======
+<<<<<<< HEAD
+    - _MKGlowTexColor: {r: 0.5, g: 0.50151867, b: 0.99848133, a: 0}
+=======
+    - _MKGlowTexColor: {r: 0.50300103, g: 1, b: 0.5, a: 0}
+>>>>>>> c7f51444e89ae399f36d2251a1964d69c92f0ecc
+>>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

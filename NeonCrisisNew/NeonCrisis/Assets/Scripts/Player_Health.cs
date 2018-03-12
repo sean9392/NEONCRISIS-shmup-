@@ -40,10 +40,21 @@ public class Player_Health : MonoBehaviour {
                 On_End();
             }
         }
+<<<<<<< HEAD
 	}*/
 
     public void On_End()
     {
+=======
+	}
+
+    public void On_End()
+    {
+        if (Score_Updater.score_updater != null)
+        {
+            Score_Updater.score_updater.On_End();
+        }
+>>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
         if (Game_End.game_end_instance != null)
         {
             Game_End.game_end_instance.On_End();
