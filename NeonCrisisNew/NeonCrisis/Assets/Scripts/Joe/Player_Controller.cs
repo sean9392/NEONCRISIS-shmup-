@@ -21,8 +21,12 @@ public class Player_Controller : MonoBehaviour {
 	void Start () {
         init_shot_delay = shot_delay;
         rigidbody = GetComponent<Rigidbody2D>();
+<<<<<<< HEAD
 
 	}
+=======
+    }
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 	
 	// Update is called once per frame
 	void Update () {

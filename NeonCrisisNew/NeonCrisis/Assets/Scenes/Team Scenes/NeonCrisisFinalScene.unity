@@ -306,6 +306,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 13.616673, y: 1}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!1001 &55220047
 Prefab:
   m_ObjectHideFlags: 0
@@ -528,6 +529,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95a477d2c26f0dc42b6f1df10a6827ba, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 --- !u!1 &113286391
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,6 +882,7 @@ Transform:
   m_Father: {fileID: 478060561}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &194015716
 Prefab:
   m_ObjectHideFlags: 0
@@ -964,6 +968,8 @@ RectTransform:
   m_Father: {fileID: 161879467}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000030517578, y: 0.000010158867}
@@ -1041,6 +1047,7 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 203081968}
+<<<<<<< HEAD
 --- !u!1001 &272281828
 Prefab:
   m_ObjectHideFlags: 0
@@ -1121,6 +1128,8 @@ Transform:
   m_Father: {fileID: 478060561}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 --- !u!1 &301189800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1441,7 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 371695711}
+<<<<<<< HEAD
 --- !u!1001 &396084483
 Prefab:
   m_ObjectHideFlags: 0
@@ -1574,6 +1584,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 204f22075002d344ba81d3f29cdd41c0, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 --- !u!1 &429697361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,6 +1876,7 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 461119986}
+<<<<<<< HEAD
 --- !u!1001 &474437277
 Prefab:
   m_ObjectHideFlags: 0
@@ -1915,6 +1928,9 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 0c8d1d724a1023a4b8d43dd848b8d5ef, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &478060555
+=======
+--- !u!1 &498479968
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1977685392875224, guid: 5107d0b3870657243b98deac294b2e46,
@@ -2035,6 +2051,7 @@ MonoBehaviour:
 --- !u!114 &478060558
 MonoBehaviour:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 114199676432028196, guid: 5107d0b3870657243b98deac294b2e46,
     type: 2}
   m_PrefabInternal: {fileID: 0}
@@ -2096,13 +2113,17 @@ Rigidbody2D:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4872298220800638, guid: 5107d0b3870657243b98deac294b2e46,
+=======
+  m_PrefabParentObject: {fileID: 224377740682676380, guid: a0f7e42fd85c29b46b2509ca75528a9e,
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
     type: 2}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 478060555}
+  m_GameObject: {fileID: 505514847}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.009305984, y: -4.4, z: 0}
-  m_LocalScale: {x: 0.13882567, y: 0.13882568, z: 0.13882568}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 1982923622}
   - {fileID: 190277901}
   - {fileID: 96483558}
@@ -2344,6 +2365,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
   - {fileID: 1203886132}
   - {fileID: 654432283}
   - {fileID: 26877874}
@@ -3235,6 +3258,7 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 654432282}
+<<<<<<< HEAD
 --- !u!1 &673828880
 GameObject:
   m_ObjectHideFlags: 0
@@ -3457,6 +3481,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95a477d2c26f0dc42b6f1df10a6827ba, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 --- !u!1 &724452070
 GameObject:
   m_ObjectHideFlags: 0
@@ -3529,7 +3555,11 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 724452070}
+<<<<<<< HEAD
 --- !u!1001 &728678910
+=======
+--- !u!1001 &725110716
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -3675,6 +3705,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5fb807b8b26a9534ea1eec7ba435bfa3, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD
 --- !u!1 &742184971
 GameObject:
   m_ObjectHideFlags: 0
@@ -3755,6 +3786,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 742184971}
 --- !u!1001 &749646658
 Prefab:
+=======
+--- !u!1 &784675647
+GameObject:
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -5250,8 +5285,13 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD
 --- !u!1001 &1061524732
 Prefab:
+=======
+--- !u!1 &1114907948
+GameObject:
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -5471,6 +5511,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 222436676218691026, guid: a0f7e42fd85c29b46b2509ca75528a9e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1101041504}
 --- !u!1001 &1106529982
 Prefab:
@@ -5624,29 +5665,34 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 204f22075002d344ba81d3f29cdd41c0, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1114907948
+=======
+  m_GameObject: {fileID: 1114907948}
+--- !u!1 &1130947912
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1931987417650826, guid: a0f7e42fd85c29b46b2509ca75528a9e,
+  m_PrefabParentObject: {fileID: 1560144942786936, guid: a0f7e42fd85c29b46b2509ca75528a9e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1114907949}
-  - component: {fileID: 1114907951}
-  - component: {fileID: 1114907950}
+  - component: {fileID: 1130947913}
+  - component: {fileID: 1130947915}
+  - component: {fileID: 1130947914}
   m_Layer: 5
-  m_Name: Element 3
+  m_Name: Green 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1114907949
+--- !u!224 &1130947913
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 224222957630980076, guid: a0f7e42fd85c29b46b2509ca75528a9e,
+  m_PrefabParentObject: {fileID: 224768318753722730, guid: a0f7e42fd85c29b46b2509ca75528a9e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1114907948}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -5719,6 +5765,8 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224768318753722730, guid: a0f7e42fd85c29b46b2509ca75528a9e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
   m_GameObject: {fileID: 1130947912}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -6296,6 +6344,49 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1236692244}
+<<<<<<< HEAD
+=======
+--- !u!1 &1238494027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1238494029}
+  - component: {fileID: 1238494028}
+  m_Layer: 0
+  m_Name: Game End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1238494028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1238494027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e6d9db59e596a429c7ca06b2ac852a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1238494029
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1238494027}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.9164162, y: 223.8085, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 --- !u!1 &1247162201
 GameObject:
   m_ObjectHideFlags: 0
@@ -6368,7 +6459,11 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1247162201}
+<<<<<<< HEAD
 --- !u!1001 &1264605744
+=======
+--- !u!1001 &1310641159
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -6702,6 +6797,7 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1326938301}
+<<<<<<< HEAD
 --- !u!1 &1327949662
 GameObject:
   m_ObjectHideFlags: 0
@@ -6795,10 +6891,14 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1327949662}
 --- !u!1001 &1344344522
+=======
+--- !u!1001 &1375384123
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1779457495}
     m_Modifications:
     - target: {fileID: 4153093921550846, guid: 920ba8f940b826245897fe9d4406ed79, type: 2}
@@ -6891,10 +6991,51 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 6d55607941377594aad7534ba64a04b3, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1380688346
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4358834004992556, guid: 5832827df83c2da4183c692b631b0b90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.0260787
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358834004992556, guid: 5832827df83c2da4183c692b631b0b90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.8442717
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358834004992556, guid: 5832827df83c2da4183c692b631b0b90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358834004992556, guid: 5832827df83c2da4183c692b631b0b90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358834004992556, guid: 5832827df83c2da4183c692b631b0b90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358834004992556, guid: 5832827df83c2da4183c692b631b0b90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358834004992556, guid: 5832827df83c2da4183c692b631b0b90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358834004992556, guid: 5832827df83c2da4183c692b631b0b90, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5832827df83c2da4183c692b631b0b90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1389610052
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1779457495}
     m_Modifications:
     - target: {fileID: 4672995441629284, guid: 5fb807b8b26a9534ea1eec7ba435bfa3, type: 2}
@@ -6939,6 +7080,44 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5fb807b8b26a9534ea1eec7ba435bfa3, type: 2}
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4661374267423038, guid: 0e4d6ee105b57ea4f99a6570c88a61bb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.8455688
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661374267423038, guid: 0e4d6ee105b57ea4f99a6570c88a61bb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.8512163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661374267423038, guid: 0e4d6ee105b57ea4f99a6570c88a61bb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661374267423038, guid: 0e4d6ee105b57ea4f99a6570c88a61bb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661374267423038, guid: 0e4d6ee105b57ea4f99a6570c88a61bb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661374267423038, guid: 0e4d6ee105b57ea4f99a6570c88a61bb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661374267423038, guid: 0e4d6ee105b57ea4f99a6570c88a61bb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661374267423038, guid: 0e4d6ee105b57ea4f99a6570c88a61bb, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0e4d6ee105b57ea4f99a6570c88a61bb, type: 2}
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
   m_IsPrefabParent: 0
 --- !u!1 &1390368799
 GameObject:
@@ -8388,7 +8567,11 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD
 --- !u!1001 &1675036919
+=======
+--- !u!1001 &1685667035
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8546,6 +8729,7 @@ Prefab:
 --- !u!1001 &1696834750
 Prefab:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 1779457495}
@@ -8666,10 +8850,13 @@ MonoBehaviour:
 --- !u!222 &1697248999
 CanvasRenderer:
   m_ObjectHideFlags: 0
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
   m_PrefabParentObject: {fileID: 222398887585565052, guid: a0f7e42fd85c29b46b2509ca75528a9e,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1697248996}
+<<<<<<< HEAD
 --- !u!1001 &1702714776
 Prefab:
   m_ObjectHideFlags: 0
@@ -8716,6 +8903,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e62c98e8064b4cd42b1089862d1f6aa5, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 --- !u!1 &1728034893
 GameObject:
   m_ObjectHideFlags: 0
@@ -8788,11 +8977,16 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1728034893}
+<<<<<<< HEAD
 --- !u!1001 &1731860278
+=======
+--- !u!1001 &1776111347
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1779457495}
     m_Modifications:
     - target: {fileID: 4672995441629284, guid: 5fb807b8b26a9534ea1eec7ba435bfa3, type: 2}
@@ -8839,6 +9033,46 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 5fb807b8b26a9534ea1eec7ba435bfa3, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1744224536
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4895594575866908, guid: 43734280791860e4bb4e5b425b21ad73, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.477659
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895594575866908, guid: 43734280791860e4bb4e5b425b21ad73, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.823432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895594575866908, guid: 43734280791860e4bb4e5b425b21ad73, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895594575866908, guid: 43734280791860e4bb4e5b425b21ad73, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895594575866908, guid: 43734280791860e4bb4e5b425b21ad73, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895594575866908, guid: 43734280791860e4bb4e5b425b21ad73, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895594575866908, guid: 43734280791860e4bb4e5b425b21ad73, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895594575866908, guid: 43734280791860e4bb4e5b425b21ad73, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 43734280791860e4bb4e5b425b21ad73, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1808066513
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9299,6 +9533,7 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1840795862}
+<<<<<<< HEAD
 --- !u!1001 &1847260152
 Prefab:
   m_ObjectHideFlags: 0
@@ -9522,6 +9757,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95a477d2c26f0dc42b6f1df10a6827ba, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 --- !u!1 &1887073322
 GameObject:
   m_ObjectHideFlags: 0
@@ -9949,6 +10186,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 --- !u!1001 &1955023726
 Prefab:
   m_ObjectHideFlags: 0
@@ -10121,6 +10359,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5fb807b8b26a9534ea1eec7ba435bfa3, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 --- !u!1 &1978555023
 GameObject:
   m_ObjectHideFlags: 0
@@ -10195,6 +10435,7 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1978555023}
+<<<<<<< HEAD
 --- !u!1 &1982923621
 GameObject:
   m_ObjectHideFlags: 0
@@ -10279,6 +10520,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 --- !u!1 &2003849111
 GameObject:
   m_ObjectHideFlags: 0
@@ -10371,6 +10614,7 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2003849111}
+<<<<<<< HEAD
 --- !u!1001 &2013726031
 Prefab:
   m_ObjectHideFlags: 0
@@ -10551,6 +10795,8 @@ MonoBehaviour:
   shield_cost: 10
   shield_time: 5
   active: 0
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 --- !u!1 &2086666238
 GameObject:
   m_ObjectHideFlags: 0

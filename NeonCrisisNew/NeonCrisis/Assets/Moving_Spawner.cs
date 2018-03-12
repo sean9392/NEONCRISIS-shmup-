@@ -12,7 +12,24 @@ public class Moving_Spawner : MonoBehaviour {
     public int health;
     public int score = 1;
 
+<<<<<<< HEAD
     private void OnTriggerEnter2D(Collider2D collision)
+=======
+    private void Start()
+    {
+        spawn_time = (Time.fixedTime) + (this.transform.position.y / 1.5f) - (6 / 1.5f);
+    }
+
+    private void Update()
+    {
+        if(Time.fixedTime > spawn_time)
+        {
+            Spawn();
+        }
+    }
+
+    void Spawn()
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
     {
 		print ("ent");
         GameObject enemy_inst = Instantiate(enemy_to_spawn, this.transform.position, this.transform.rotation) as GameObject;

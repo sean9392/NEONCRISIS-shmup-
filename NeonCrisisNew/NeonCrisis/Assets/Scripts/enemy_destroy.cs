@@ -16,6 +16,7 @@ public class enemy_destroy : MonoBehaviour {
 	}
 	
 	void OnCollisionEnter2D (Collision2D col) {
+<<<<<<< HEAD
 
 		if (col.gameObject.CompareTag("Pew")) {            
             if (health <= 0)
@@ -39,6 +40,13 @@ public class enemy_destroy : MonoBehaviour {
                     Laser_Power_Holder.laser_power_holder_instance.Add_Power();
                 }
                 Destroy(this.gameObject);
+=======
+        
+		if (col.gameObject.CompareTag("Pew")) {
+            if (health <= 0)
+            {
+                Die();
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
             }
             else
             {

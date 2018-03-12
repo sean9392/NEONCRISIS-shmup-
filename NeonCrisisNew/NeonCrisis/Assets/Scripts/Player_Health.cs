@@ -45,5 +45,18 @@ public class Player_Health : MonoBehaviour {
                 //Destroy(this.gameObject);
             }
         }
+<<<<<<< HEAD
 	}
+=======
+	}*/
+
+    public void On_End()
+    {
+        if (Game_End.game_end_instance != null)
+        {
+            Game_End.game_end_instance.On_End();
+        }
+        Destroy(this.gameObject);
+    }
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 }
