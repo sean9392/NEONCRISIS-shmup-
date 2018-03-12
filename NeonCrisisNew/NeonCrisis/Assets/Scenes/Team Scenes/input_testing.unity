@@ -108,6 +108,7 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &42131980
 Prefab:
   m_ObjectHideFlags: 0
@@ -192,6 +193,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b2cfb65a1b8f1b746935f23fc2e77011, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
 --- !u!1 &642331638
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +336,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb92e36b38dace44a8be85fb0d2e3b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   score: 100000
+=======
+>>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
 --- !u!114 &951866088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,7 +360,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
+<<<<<<< HEAD
     m_Font: {fileID: 12800000, guid: 5c3b28639d21db040ab41d3931dee954, type: 3}
+=======
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
     m_FontSize: 82
     m_FontStyle: 1
     m_BestFit: 0

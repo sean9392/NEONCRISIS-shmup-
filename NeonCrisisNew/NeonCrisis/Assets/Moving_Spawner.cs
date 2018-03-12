@@ -17,7 +17,11 @@ public class Moving_Spawner : MonoBehaviour {
 =======
     private void Start()
     {
+<<<<<<< HEAD
         spawn_time = (Time.fixedTime) + (this.transform.position.y / 1.5f) - (6 / 1.5f);
+=======
+        spawn_time = Time.fixedTime + this.transform.position.y - 6;
+>>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
     }
 
     private void Update()
