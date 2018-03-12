@@ -22,10 +22,6 @@ public class Player_Controller : MonoBehaviour {
         
         init_shot_delay = shot_delay;
         rigidbody = GetComponent<Rigidbody2D>();
-<<<<<<< HEAD
-=======
-        Save_Load_Data.Save_Game("Test", 500);
->>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
     }
 	
 	// Update is called once per frame

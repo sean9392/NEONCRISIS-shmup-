@@ -5,11 +5,8 @@ using UnityEngine.UI;
 
 public class UI_Letter_Selection : MonoBehaviour {
 
-<<<<<<< HEAD
     Save_Highscore_Data highscore_data;
 
-=======
->>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
     string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     int name_position = 0;
@@ -18,25 +15,19 @@ public class UI_Letter_Selection : MonoBehaviour {
 
     bool resting = true;
 
-<<<<<<< HEAD
     public int score = 100000;
 
-=======
->>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
     string player_name;
     Text text;
     
 
     private void Start()
     {
-<<<<<<< HEAD
         highscore_data = FindObjectOfType<Save_Highscore_Data>();
         if(highscore_data.Is_Highscore(PlayerPrefs.GetInt("Current_Score")) == false)
         { 
             UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
         }
-=======
->>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
         name_array = new char[] { ' ', ' ', ' ' };
         text = GetComponent<Text>();
     }
@@ -102,11 +93,8 @@ public class UI_Letter_Selection : MonoBehaviour {
         if (name_position == 2)
         {
             player_name = "" + name_array[0] + name_array[1] + name_array[2];
-<<<<<<< HEAD
             highscore_data.Add_Highscore(player_name, PlayerPrefs.GetInt("Current_Score"));
             UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
-=======
->>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
         }
         else
         {
