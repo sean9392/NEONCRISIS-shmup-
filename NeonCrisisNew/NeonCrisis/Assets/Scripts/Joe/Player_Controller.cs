@@ -25,6 +25,7 @@ public class Player_Controller : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	}
 =======
@@ -33,6 +34,8 @@ public class Player_Controller : MonoBehaviour {
         Save_Load_Data.Save_Game("Test", 500);
 >>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
     }
