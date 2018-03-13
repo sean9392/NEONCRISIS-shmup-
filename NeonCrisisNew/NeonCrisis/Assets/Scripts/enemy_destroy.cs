@@ -12,11 +12,11 @@ public class enemy_destroy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        health = 2;
 
 	}
 	
 	void OnCollisionEnter2D (Collision2D col) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -45,11 +45,14 @@ public class enemy_destroy : MonoBehaviour {
 =======
 =======
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
         
 		if (col.gameObject.CompareTag("Pew")) {
             if (health <= 0)
             {
                 Die();
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
 =======
@@ -81,6 +84,8 @@ public class enemy_destroy : MonoBehaviour {
                 Destroy(this.gameObject);
 >>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+>>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
             }
             else
             {
