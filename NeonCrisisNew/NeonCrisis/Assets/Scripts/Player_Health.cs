@@ -37,29 +37,10 @@ public class Player_Health : MonoBehaviour {
 
             if(health <= 0)
             {
-                if(Score_Updater.score_updater != null)
-                {
-                    Score_Updater.score_updater.On_End();
-                }
-                UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
-                //Destroy(this.gameObject);
+                On_End();
             }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 	}
-=======
-=======
->>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
-=======
->>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
-=======
->>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
-	}*/
 
     public void On_End()
     {
@@ -69,11 +50,4 @@ public class Player_Health : MonoBehaviour {
         }
         Destroy(this.gameObject);
     }
->>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
-=======
-	}
->>>>>>> parent of 9dae4760... no fucking clue
-=======
-	}
->>>>>>> parent of 2624d7c1... aoeu
 }

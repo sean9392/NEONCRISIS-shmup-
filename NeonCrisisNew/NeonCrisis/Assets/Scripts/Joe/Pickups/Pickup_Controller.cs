@@ -21,9 +21,14 @@ public class Pickup_Controller : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         Pickup pickup = collision.GetComponent<Pickup>();
         if(pickup != null)
         {
+            if (Score_Updater.score_updater != null)
+            {
+                Score_Updater.score_updater.Add_Score(100);
+            }
             switch (pickup.pickup_type)
             {
                 case Pickup.pickup_types.damage_multiplier:
@@ -51,7 +56,7 @@ public class Pickup_Controller : MonoBehaviour {
         }
         if(player_health != null)
         {
-            player_health.Add_Health(_amount);
+            player_health.Add_Health(Random.Range(2, 5));
         }
     }
 

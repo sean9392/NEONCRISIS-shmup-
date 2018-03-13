@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4621819148789490}
   - component: {fileID: 212538955264217928}
+  - component: {fileID: 114823458810887680}
   m_Layer: 0
   m_Name: Pickup_Sprite
   m_TagString: Untagged
@@ -36,8 +37,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4001537509220020}
   - component: {fileID: 58461164606938090}
-  - component: {fileID: 114431196811143136}
   - component: {fileID: 114643016443968568}
+  - component: {fileID: 114393586160913576}
+  - component: {fileID: 114420705562035914}
   m_Layer: 0
   m_Name: Energy_Pickup
   m_TagString: Weapon_Pickup
@@ -52,7 +54,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1116856615516910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.617774, y: -7.5273275, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.46161044, y: 0.4616096, z: 0.4616096}
   m_Children:
   - {fileID: 4621819148789490}
@@ -87,7 +89,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.7
---- !u!114 &114431196811143136
+--- !u!114 &114393586160913576
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -95,10 +97,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1116856615516910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d515dcc72ce5da44aa8636a89891eb93, type: 3}
+  m_Script: {fileID: 11500000, guid: 9735744b36ea4e64fb11a5fc37128d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 300
+  speed: 1
+--- !u!114 &114420705562035914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1116856615516910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b788780f2cfcab34581b9a65b720432c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite_object: {fileID: 1379541704558622, guid: c8677aa440dcb004eb7a972553a83d6e,
+    type: 2}
 --- !u!114 &114643016443968568
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -112,6 +127,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickup_type: 3
   amount: 1
+--- !u!114 &114823458810887680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1047943026722210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d515dcc72ce5da44aa8636a89891eb93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 300
 --- !u!212 &212538955264217928
 SpriteRenderer:
   m_ObjectHideFlags: 1

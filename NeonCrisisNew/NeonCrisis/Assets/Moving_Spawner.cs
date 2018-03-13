@@ -11,12 +11,9 @@ public class Moving_Spawner : MonoBehaviour {
     public GameObject fire_pattern;
     public int health;
     public int score = 1;
+    float spawn_time;
+    public int angle_skip = 15;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    private void OnTriggerEnter2D(Collider2D collision)
-=======
     private void Start()
     {
         spawn_time = (Time.fixedTime) + (this.transform.position.y / 1.5f) - (6 / 1.5f);
@@ -31,15 +28,7 @@ public class Moving_Spawner : MonoBehaviour {
     }
 
     void Spawn()
->>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
-=======
-    private void OnTriggerEnter2D(Collider2D collision)
->>>>>>> parent of 9dae4760... no fucking clue
-=======
-    private void OnTriggerEnter2D(Collider2D collision)
->>>>>>> parent of 2624d7c1... aoeu
     {
-		print ("ent");
         GameObject enemy_inst = Instantiate(enemy_to_spawn, this.transform.position, this.transform.rotation) as GameObject;
         GameObject fire_pattern = null;
         switch (shot_type)
@@ -52,9 +41,19 @@ public class Moving_Spawner : MonoBehaviour {
                 break;
             case shot_types.loop_shot:
                 fire_pattern = Instantiate(Resources.Load("prefabs/TEMP/SHOT_TYPES/Loop_Shot", typeof(GameObject)) as GameObject, this.transform.position, Quaternion.identity);
+                Loop_Shot shot = fire_pattern.GetComponent<Loop_Shot>();
+                if(shot != null)
+                {
+                    shot.angle_skip = angle_skip;
+                }
                 break;
             case shot_types.circle_shot:
                 fire_pattern = Instantiate(Resources.Load("prefabs/TEMP/SHOT_TYPES/Circle_Shot", typeof(GameObject)) as GameObject, this.transform.position, Quaternion.identity);
+                Circle_Shot circle_shot = fire_pattern.GetComponent<Circle_Shot>();
+                if(circle_shot != null)
+                {
+                    circle_shot.angle_skip = angle_skip;
+                }
                 break;
             }
         fire_pattern.transform.SetParent(enemy_inst.transform);
