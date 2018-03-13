@@ -13,6 +13,7 @@ public class Moving_Spawner : MonoBehaviour {
     public int score = 1;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private void OnTriggerEnter2D(Collider2D collision)
 =======
     private void Start()
@@ -30,6 +31,9 @@ public class Moving_Spawner : MonoBehaviour {
 
     void Spawn()
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+    private void OnTriggerEnter2D(Collider2D collision)
+>>>>>>> parent of 9dae4760... no fucking clue
     {
 		print ("ent");
         GameObject enemy_inst = Instantiate(enemy_to_spawn, this.transform.position, this.transform.rotation) as GameObject;

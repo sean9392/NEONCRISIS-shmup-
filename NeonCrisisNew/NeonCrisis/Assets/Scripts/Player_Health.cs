@@ -48,6 +48,7 @@ public class Player_Health : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	}
 =======
 =======
@@ -65,4 +66,7 @@ public class Player_Health : MonoBehaviour {
         Destroy(this.gameObject);
     }
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+	}
+>>>>>>> parent of 9dae4760... no fucking clue
 }

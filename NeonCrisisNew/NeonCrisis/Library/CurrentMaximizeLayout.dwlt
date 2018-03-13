@@ -24,6 +24,7 @@ MonoBehaviour:
   m_MaxSize: {x: 14004, y: 18042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 9812
 =======
   controlID: 3599
@@ -48,6 +49,9 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+  controlID: 9812
+>>>>>>> parent of 9dae4760... no fucking clue
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -74,10 +78,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9dae4760... no fucking clue
     x: 386
     y: 100
     width: 1138
     height: 518
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -109,6 +117,8 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+>>>>>>> parent of 9dae4760... no fucking clue
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
@@ -121,10 +131,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9dae4760... no fucking clue
     m_HBaseRangeMin: -640
     m_HBaseRangeMax: 640
     m_VBaseRangeMin: -512
     m_VBaseRangeMax: 512
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -156,6 +170,8 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+>>>>>>> parent of 9dae4760... no fucking clue
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -176,10 +192,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9dae4760... no fucking clue
       width: 1138
       height: 501
     m_Scale: {x: 0.48925778, y: 0.4892578}
     m_Translation: {x: 569, y: 250.5}
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -211,6 +231,8 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+>>>>>>> parent of 9dae4760... no fucking clue
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -221,10 +243,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9dae4760... no fucking clue
       x: -1162.9861
       y: -512
       width: 2325.9722
       height: 1024
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -256,10 +282,13 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+>>>>>>> parent of 9dae4760... no fucking clue
     m_MinimalGUI: 1
   m_defaultScale: 0.4892578
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,6 +313,9 @@ MonoBehaviour:
 =======
   m_LastWindowPixelSize: {x: 1125, y: 543}
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+  m_LastWindowPixelSize: {x: 1138, y: 518}
+>>>>>>> parent of 9dae4760... no fucking clue
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -310,6 +342,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1518
 =======
 <<<<<<< HEAD
@@ -321,10 +354,14 @@ MonoBehaviour:
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
     width: 1499
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+    width: 1518
+>>>>>>> parent of 9dae4760... no fucking clue
     height: 931
   m_MinSize: {x: 304, y: 571}
   m_MaxSize: {x: 10002, y: 18042}
   vertical: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 9813
 =======
@@ -350,6 +387,9 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+  controlID: 9813
+>>>>>>> parent of 9dae4760... no fucking clue
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -368,6 +408,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -413,6 +454,14 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+    width: 1518
+    height: 539
+  m_MinSize: {x: 304, y: 200}
+  m_MaxSize: {x: 8004, y: 4021}
+  vertical: 0
+  controlID: 9814
+>>>>>>> parent of 9dae4760... no fucking clue
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -433,6 +482,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 376
     height: 539
 =======
@@ -446,6 +496,10 @@ MonoBehaviour:
     width: 370
     height: 562
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+    width: 376
+    height: 539
+>>>>>>> parent of 9dae4760... no fucking clue
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
@@ -482,6 +536,7 @@ MonoBehaviour:
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 185c0000
     m_LastClickedID: 23576
     m_ExpandedIDs: bc85ffff149bffff2cb2ffff26b7ffffc0c4ffff3ed8ffff18dbffffaaf7ffff00000000c65500009c5b0000a25b0000bc5b0000d85b0000f05b0000
@@ -513,6 +568,11 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+    m_SelectedIDs: 185c0000
+    m_LastClickedID: 23576
+    m_ExpandedIDs: bc85ffff149bffff2cb2ffff26b7ffffc0c4ffff3ed8ffff18dbffffaaf7ffff00000000c65500009c5b0000a25b0000bc5b0000d85b0000f05b0000
+>>>>>>> parent of 9dae4760... no fucking clue
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,6 +612,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 376
     y: 0
     width: 1142
@@ -573,6 +634,14 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+    x: 376
+    y: 0
+    width: 1142
+    height: 539
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of 9dae4760... no fucking clue
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
@@ -602,6 +671,7 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -641,12 +711,19 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+    x: 386
+    y: 100
+    width: 1138
+    height: 539
+>>>>>>> parent of 9dae4760... no fucking clue
   m_SceneLighting: 1
   lastFramingTime: 0
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -680,6 +757,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 1.5274994, y: 0.028472397, z: -3.46875}
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+    m_Target: {x: 2.4782503, y: 4.1672482, z: -0.015625}
+    speed: 2
+    m_Value: {x: 2.4782503, y: 4.1672482, z: -0.015625}
+>>>>>>> parent of 9dae4760... no fucking clue
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -706,6 +788,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -739,6 +822,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 10.637444
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+    m_Target: 52.348846
+    speed: 2
+    m_Value: 52.348846
+>>>>>>> parent of 9dae4760... no fucking clue
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -794,6 +882,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 539
     width: 1518
     height: 121
@@ -809,6 +898,11 @@ MonoBehaviour:
     width: 1499
     height: 369
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+    y: 539
+    width: 1518
+    height: 121
+>>>>>>> parent of 9dae4760... no fucking clue
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 11}
@@ -869,6 +963,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 14}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Selected: 0
 =======
   m_Selected: 3
@@ -897,6 +992,9 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+  m_Selected: 0
+>>>>>>> parent of 9dae4760... no fucking clue
   m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -921,6 +1019,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 8
+<<<<<<< HEAD
 <<<<<<< HEAD
     y: 760
     width: 1516
@@ -948,6 +1047,11 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+    y: 760
+    width: 1516
+    height: 250
+>>>>>>> parent of 9dae4760... no fucking clue
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -964,6 +1068,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes/Team Scenes/Jamie/Sprites/Rectangles
 =======
 <<<<<<< HEAD
@@ -975,6 +1080,9 @@ MonoBehaviour:
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
     - Assets/Resources/Prefabs/TEMP/SHOT_TYPES
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+    - Assets/Scenes/Team Scenes/Jamie/Sprites/Rectangles
+>>>>>>> parent of 9dae4760... no fucking clue
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
@@ -984,10 +1092,14 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9dae4760... no fucking clue
     scrollPos: {x: 0, y: 663}
     m_SelectedIDs: ba910000
     m_LastClickedID: 37306
     m_ExpandedIDs: 00000000ce3b00001e3c0000083e0000a23f000098400000184100007a4100009a410000224200000c43000034430000c24300004644000088440000b64700002248000000ca9a3bffffff7f
+<<<<<<< HEAD
 =======
     scrollPos: {x: 0, y: 87}
     m_SelectedIDs: 722a0000
@@ -1021,6 +1133,8 @@ MonoBehaviour:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+>>>>>>> parent of 9dae4760... no fucking clue
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1052,6 +1166,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ce3b00001e3c0000083e0000a23f000098400000184100007a4100009a410000224200000c43000034430000c24300004644000088440000b64700002248000000ca9a3bffffff7f
 =======
 <<<<<<< HEAD
@@ -1071,6 +1186,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000088290000322b0000d62b0000fc2e0000822f0000a82f0000b231000022370000a038000000ca9a3bffffff7f
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+    m_ExpandedIDs: 00000000ce3b00001e3c0000083e0000a23f000098400000184100007a4100009a410000224200000c43000034430000c24300004644000088440000b64700002248000000ca9a3bffffff7f
+>>>>>>> parent of 9dae4760... no fucking clue
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1099,6 +1217,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 185c0000
     m_LastClickedInstanceID: 23576
     m_HadKeyboardFocusLastEvent: 0
@@ -1114,6 +1233,11 @@ MonoBehaviour:
     m_LastClickedInstanceID: 11578
     m_HadKeyboardFocusLastEvent: 1
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+    m_SelectedInstanceIDs: 185c0000
+    m_LastClickedInstanceID: 23576
+    m_HadKeyboardFocusLastEvent: 0
+>>>>>>> parent of 9dae4760... no fucking clue
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1140,6 +1264,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_GridSize: 96
   m_DirectoriesAreaWidth: 227
 --- !u!114 &14
@@ -1148,6 +1273,11 @@ MonoBehaviour:
   m_DirectoriesAreaWidth: 115
 --- !u!114 &12
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+    m_GridSize: 96
+  m_DirectoriesAreaWidth: 227
+--- !u!114 &14
+>>>>>>> parent of 9dae4760... no fucking clue
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1170,6 +1300,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 8
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1332,6 +1463,11 @@ MonoBehaviour:
   m_ShowBusConnections: 0
   m_ShowBusConnectionsOfSelection: 0
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+    y: 718
+    width: 1366
+    height: 308
+>>>>>>> parent of 9dae4760... no fucking clue
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1350,6 +1486,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1518
 =======
 <<<<<<< HEAD
@@ -1361,6 +1498,9 @@ MonoBehaviour:
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
     x: 1499
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+    x: 1518
+>>>>>>> parent of 9dae4760... no fucking clue
     y: 0
     width: 386
     height: 931
@@ -1397,6 +1537,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1528
 =======
 <<<<<<< HEAD
@@ -1408,6 +1549,9 @@ MonoBehaviour:
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
     x: 1509
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+=======
+    x: 1528
+>>>>>>> parent of 9dae4760... no fucking clue
     y: 100
     width: 384
     height: 910

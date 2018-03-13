@@ -19,6 +19,7 @@ public class enemy_destroy : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		if (col.gameObject.CompareTag("Pew")) {            
             if (health <= 0)
@@ -89,6 +90,34 @@ public class enemy_destroy : MonoBehaviour {
             }
             else
             {
+=======
+
+		if (col.gameObject.CompareTag("Pew")) {            
+            if (health <= 0)
+            {
+                if (explosion != null)
+                {
+                    GameObject explosion_inst = Instantiate(explosion, this.transform.position, Quaternion.identity) as GameObject;
+                    Destroy(explosion_inst, 4);
+                    
+                }
+                if (Random.Range(0, 2) == 1 && pickups.Length != 0)
+                {
+                    Instantiate(pickups[Random.Range(0, pickups.Length)], this.transform.position, Quaternion.identity);
+                }
+                if (Score_Updater.score_updater != null && Pickup_Controller.pickup_controller_instance != null)
+                {
+                    Score_Updater.score_updater.Add_Score(score_amount * Pickup_Controller.pickup_controller_instance.score_multiplier);
+                }
+                if(Laser_Power_Holder.laser_power_holder_instance != null)
+                {
+                    Laser_Power_Holder.laser_power_holder_instance.Add_Power();
+                }
+                Destroy(this.gameObject);
+            }
+            else
+            {
+>>>>>>> parent of 9dae4760... no fucking clue
                 GameObject splash_inst = Instantiate(splash, this.transform.position, Quaternion.identity) as GameObject;
                 Destroy(splash_inst, 1);
                 health--;

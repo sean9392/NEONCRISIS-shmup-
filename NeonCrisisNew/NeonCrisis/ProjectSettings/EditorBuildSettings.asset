@@ -10,6 +10,7 @@ EditorBuildSettings:
     guid: a816072b846cc9240b5e824ba64e5dbe
   - enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
     path: Assets/Scenes/Team Scenes/Level_2_New_Backup.unity
     guid: 7cd9fe12e348b094783cdf3bc3f13f04
 =======
@@ -32,6 +33,10 @@ EditorBuildSettings:
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
 =======
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+    path: Assets/Scenes/Team Scenes/Level_2_New_Backup.unity
+    guid: 7cd9fe12e348b094783cdf3bc3f13f04
+>>>>>>> parent of 9dae4760... no fucking clue
   - enabled: 1
     path: Assets/Scenes/Team Scenes/Jamie/High_Score_test 2.unity
     guid: 64a62c21c355cd842a09c8faa5cef44a

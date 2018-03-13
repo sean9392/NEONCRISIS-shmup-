@@ -24,6 +24,7 @@ public class Player_Controller : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	}
 =======
@@ -36,6 +37,10 @@ public class Player_Controller : MonoBehaviour {
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
     }
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+
+	}
+>>>>>>> parent of 9dae4760... no fucking clue
 	
 	// Update is called once per frame
 	void Update () {

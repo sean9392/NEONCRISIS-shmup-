@@ -85,6 +85,7 @@ Material:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - _MKGlowTexColor: {r: 0.5, g: 0.5, b: 1, a: 0}
 =======
 <<<<<<< HEAD
@@ -104,3 +105,6 @@ Material:
 =======
     - _MKGlowTexColor: {r: 0.5828352, g: 0.9171648, b: 0.9171648, a: 0}
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+    - _MKGlowTexColor: {r: 0.5, g: 0.5, b: 1, a: 0}
+>>>>>>> parent of 9dae4760... no fucking clue
