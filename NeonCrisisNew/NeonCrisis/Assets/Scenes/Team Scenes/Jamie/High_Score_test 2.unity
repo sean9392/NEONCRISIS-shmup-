@@ -113,10 +113,13 @@ NavMeshSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &96638995
 GameObject:
   m_ObjectHideFlags: 0
 =======
+=======
+>>>>>>> parent of 2624d7c1... aoeu
 --- !u!1 &96638995
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,10 +2400,6 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1625801140
 MonoBehaviour:
-=======
---- !u!1001 &151875670
-Prefab:
->>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2676,8 +2675,13 @@ CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 560616854}
 --- !u!1 &660330510
+=======
+  m_GameObject: {fileID: 1688973970}
+--- !u!1 &1701962721
+>>>>>>> parent of 2624d7c1... aoeu
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}

@@ -26,6 +26,7 @@ public class Player_Controller : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	}
 =======
@@ -44,6 +45,10 @@ public class Player_Controller : MonoBehaviour {
 
 	}
 >>>>>>> parent of 9dae4760... no fucking clue
+=======
+
+	}
+>>>>>>> parent of 2624d7c1... aoeu
 	
 	// Update is called once per frame
 	void Update () {

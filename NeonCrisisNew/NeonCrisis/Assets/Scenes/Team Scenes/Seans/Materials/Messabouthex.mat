@@ -87,6 +87,9 @@ Material:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 2624d7c1... aoeu
     - _MKGlowTexColor: {r: 0.5, g: 0.5, b: 1, a: 0}
 =======
 <<<<<<< HEAD
@@ -98,6 +101,7 @@ Material:
 >>>>>>> 83ac80e79cd2160bf91dffad9d5d7de17f6e2f21
 <<<<<<< HEAD
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
+<<<<<<< HEAD
 =======
     - _MKGlowTexColor: {r: 0.5828352, g: 0.9171648, b: 0.9171648, a: 0}
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
@@ -112,3 +116,5 @@ Material:
 =======
     - _MKGlowTexColor: {r: 0.5828352, g: 0.9171648, b: 0.9171648, a: 0}
 >>>>>>> parent of 3d8cbfe3... Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-
+=======
+>>>>>>> parent of 2624d7c1... aoeu

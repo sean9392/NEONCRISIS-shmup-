@@ -21,6 +21,9 @@ public class enemy_destroy : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 2624d7c1... aoeu
 
 		if (col.gameObject.CompareTag("Pew")) {            
             if (health <= 0)
@@ -44,6 +47,7 @@ public class enemy_destroy : MonoBehaviour {
                     Laser_Power_Holder.laser_power_holder_instance.Add_Power();
                 }
                 Destroy(this.gameObject);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 1abeb0f2... Revert "Merge branch 'master' of https://github.com/sean9392/NEONCRISIS-shmup-"
@@ -120,6 +124,8 @@ public class enemy_destroy : MonoBehaviour {
                     Laser_Power_Holder.laser_power_holder_instance.Add_Power();
                 }
                 Destroy(this.gameObject);
+=======
+>>>>>>> parent of 2624d7c1... aoeu
             }
             else
             {

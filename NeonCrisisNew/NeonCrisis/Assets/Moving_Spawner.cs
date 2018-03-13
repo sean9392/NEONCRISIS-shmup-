@@ -14,6 +14,7 @@ public class Moving_Spawner : MonoBehaviour {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private void OnTriggerEnter2D(Collider2D collision)
 =======
     private void Start()
@@ -34,6 +35,9 @@ public class Moving_Spawner : MonoBehaviour {
 =======
     private void OnTriggerEnter2D(Collider2D collision)
 >>>>>>> parent of 9dae4760... no fucking clue
+=======
+    private void OnTriggerEnter2D(Collider2D collision)
+>>>>>>> parent of 2624d7c1... aoeu
     {
 		print ("ent");
         GameObject enemy_inst = Instantiate(enemy_to_spawn, this.transform.position, this.transform.rotation) as GameObject;
