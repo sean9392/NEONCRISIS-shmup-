@@ -19,7 +19,8 @@ public class Boss_Spawner : MonoBehaviour {
 		if(Time.fixedTime > spawn_time && boss_object != null)
         {
             Instantiate(boss_object, this.transform.position, Quaternion.identity);
-            Destroy(this.gameObject);
+            //(this.gameObject);
+			this.gameObject.SetActive(false);
         }
 	}
 }
