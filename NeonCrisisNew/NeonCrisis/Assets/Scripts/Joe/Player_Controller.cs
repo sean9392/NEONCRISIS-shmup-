@@ -13,6 +13,7 @@ public class Player_Controller : MonoBehaviour {
     float next_shot_time;
     public Shield shield;
     public AudioSource pew_source;
+    public Vector3 min, max;
 
     int pickup_index;
     int shot_level = 1;
@@ -22,11 +23,14 @@ public class Player_Controller : MonoBehaviour {
         
         init_shot_delay = shot_delay;
         rigidbody = GetComponent<Rigidbody2D>();
+        min = new Vector3(-3.4f, -4.65f, 0f);
+        max = new Vector3(3.33f, 4.65f, 0f);
     }
 	
 	// Update is called once per frame
 	void Update () {
         Handle_User_Input();
+        Check_Bounds();
 	}
 
     void Handle_User_Input()
@@ -43,6 +47,28 @@ public class Player_Controller : MonoBehaviour {
         {
             Fire_Laser();
         }
+    }
+
+    void Check_Bounds()
+    {
+        Vector3 current_position = this.transform.position;
+        if(current_position.x < min.x)
+        {
+            current_position.x = min.x;
+        }
+        if(current_position.x > max.x)
+        {
+            current_position.x = max.x;
+        }
+        if(current_position.y < min.y)
+        {
+            current_position.y = min.y;
+        }
+        if(current_position.y > max.y)
+        {
+            current_position.y = max.y;
+        }
+        this.transform.position = current_position;
     }
 
     void Fire()
@@ -100,10 +126,6 @@ public class Player_Controller : MonoBehaviour {
     public void Update_Pickup_Index()
     {
         pickup_index++;
-        if(Weapon_Display.weapon_display != null)
-        {
-            Weapon_Display.weapon_display.Update_Weapon(pickup_index);
-        }
         if(pickup_index == 2)
         {
             shot_delay /= 2;
