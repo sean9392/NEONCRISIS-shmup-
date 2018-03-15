@@ -17,9 +17,7 @@ public class UI_Health : MonoBehaviour {
 
     public void Update_Health(int _health)
     {
-        print(_health);
-        float div = (float)_health / (float)24;
-        print(div);
+		float div = (float)_health / (float)24;
         health_bar.fillAmount = div;
     }
 }
