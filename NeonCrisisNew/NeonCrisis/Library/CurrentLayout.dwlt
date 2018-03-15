@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 342}
   m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 9
+  controlID: 92
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,8 +134,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -323,8 +323,8 @@ MonoBehaviour:
     y: 0
     width: 1152
     height: 573
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -432,7 +432,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 832}
     m_SelectedIDs: 922b0000
     m_LastClickedID: 11154
-    m_ExpandedIDs: 0000000094290000922b00003c2c0000fa2d0000062f0000882f0000123000004c320000dc320000f43300005c360000023800008639000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000096290000942b00003e2c0000fc2d0000082f00008a2f0000143000004e320000de320000f63300005e3600000438000088390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -460,7 +460,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000942900003c2c0000fa2d0000062f0000882f0000123000004c320000dc320000f43300005c36000002380000
+    m_ExpandedIDs: 0000000096290000942b00003e2c0000fc2d0000082f00008a2f0000143000004e320000de320000f63300005e3600000438000088390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -575,10 +575,10 @@ MonoBehaviour:
     width: 377
     height: 552
   m_TreeViewState:
-    scrollPos: {x: 0, y: 1257}
-    m_SelectedIDs: 3ef6ffff
-    m_LastClickedID: -2498
-    m_ExpandedIDs: 3af8ffff3cf8ffff18fcffff00000000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 16fcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
