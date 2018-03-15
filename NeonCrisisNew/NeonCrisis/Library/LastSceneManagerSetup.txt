@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Team Scenes/Jamie/Level_UI.unity
-=======
-- path: Assets/Scenes/Team Scenes/NeonCrisisFinalScene.unity
->>>>>>> e2ec696b003dc9df2bda31767adb7582dba071dd
+- path: Assets/Scenes/Team Scenes/Jamie/Test How To Screen.unity
   isLoaded: 1
   isActive: 1
