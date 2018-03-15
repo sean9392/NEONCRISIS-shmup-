@@ -938,7 +938,7 @@ MonoBehaviour:
   splash: {fileID: 100012, guid: d696df58e66919040b179bb9273ce49d, type: 2}
   pickups: []
   health: 500
-  score_amount: 2000
+  score_amount: 250000
 --- !u!212 &212585905007626580
 SpriteRenderer:
   m_ObjectHideFlags: 1
