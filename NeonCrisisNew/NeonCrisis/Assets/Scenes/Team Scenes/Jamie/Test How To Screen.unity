@@ -175,7 +175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shield
+  m_Text: ShIeld
 --- !u!222 &256942166
 CanvasRenderer:
   m_ObjectHideFlags: 0
