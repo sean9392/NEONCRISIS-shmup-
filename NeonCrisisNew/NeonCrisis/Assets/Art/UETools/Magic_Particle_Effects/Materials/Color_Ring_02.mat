@@ -33,5 +33,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _MKGlowColor: {r: 1, g: 1, b: 1, a: 0.5}
-    - _MKGlowTexColor: {r: 1, g: 1, b: 1, a: 0.25}
+    - _MKGlowTexColor: {r: 0.75149274, g: 0.74850726, b: 0.5, a: 0}
     - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}

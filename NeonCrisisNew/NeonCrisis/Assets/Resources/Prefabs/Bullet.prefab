@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1386270162273276}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.04, y: -1.03, z: 0}
+  m_LocalPosition: {x: -2.3350368, y: -7.6865163, z: 0}
   m_LocalScale: {x: 0.87747127, y: 1.2535313, z: 2.5070627}
   m_Children: []
   m_Father: {fileID: 0}
@@ -89,7 +89,7 @@ Animator:
   m_GameObject: {fileID: 1386270162273276}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cbf5ce57c36679d4a9f2a82df5c832db, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -111,7 +111,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6e227d395bb0e0743ad1a6b2ba7a91d3, type: 2}
+  - {fileID: 2100000, guid: 76fa2df678d900449a1dd70d84c3908c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -213,7 +213,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 76fa2df678d900449a1dd70d84c3908c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
