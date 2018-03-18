@@ -7,9 +7,11 @@ public class Player_Health : MonoBehaviour {
     public GameObject explosion;
     public int health = 24;
     public Shield shield;
+    Pickup_Controller pickup_controller;
 
     // Use this for initialization
     void Start () {
+        pickup_controller = GetComponent<Pickup_Controller>();
 	}
 
     public void Add_Health(int _amount)
@@ -22,6 +24,15 @@ public class Player_Health : MonoBehaviour {
 	// Update is called once per frame
 	void OnCollisionEnter2D (Collision2D col) {
 		if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Pew" && shield.active == false) {
+
+            if(pickup_controller == null)
+            {
+                pickup_controller = GetComponent<Pickup_Controller>();
+            }
+            if(pickup_controller != null)
+            {
+                pickup_controller.End_Score_Multiplier();
+            }
 
             if (explosion != null)
             {

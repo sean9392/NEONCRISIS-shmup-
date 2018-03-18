@@ -8,6 +8,7 @@ public class Laser_Power_Holder : MonoBehaviour
     public GameObject laser_ready;
     UI_Laser ui_laser;
     int power_level;
+    float taken_amount;
 
     private void Start()
     {
@@ -30,7 +31,7 @@ public class Laser_Power_Holder : MonoBehaviour
     public void Add_Power(int _amount)
     {
         print(power_level);
-        if(power_level == 9 && laser_ready != null)
+        if (power_level == 9 && laser_ready != null)
         {
             GameObject laser_object = Instantiate(laser_ready, laser_ready.transform.position, Quaternion.identity);
             Destroy(laser_object, 1);
@@ -42,11 +43,11 @@ public class Laser_Power_Holder : MonoBehaviour
 
     void Update_Power()
     {
-        if(ui_laser == null)
+        if (ui_laser == null)
         {
             ui_laser = FindObjectOfType<UI_Laser>();
         }
-        if(ui_laser != null)
+        if (ui_laser != null)
         {
             ui_laser.Update_Laser_Power(power_level);
         }
@@ -56,10 +57,10 @@ public class Laser_Power_Holder : MonoBehaviour
     {
         return power_level;
     }
-    
+
     public int Take_Power(int _amount)
     {
-        if(power_level > _amount)
+        if (power_level > _amount)
         {
             power_level -= _amount;
             Update_Power();
@@ -71,6 +72,16 @@ public class Laser_Power_Holder : MonoBehaviour
             power_level = 0;
             Update_Power();
             return power;
+        }
+    }
+
+    public void Take_Power_Over_Time(float _amount)
+    {
+        taken_amount += _amount;
+        if(taken_amount >= 1)
+        {
+            Take_Power(1);
+            taken_amount = 0;
         }
     }
 }

@@ -20,7 +20,7 @@ public class Boss_Spawner : MonoBehaviour {
         {
             Instantiate(boss_object, this.transform.position, Quaternion.identity);
             //(this.gameObject);
-			this.gameObject.SetActive(false);
+            Destroy(this.gameObject);
         }
 	}
 }

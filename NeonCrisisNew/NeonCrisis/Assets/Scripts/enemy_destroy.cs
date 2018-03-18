@@ -9,6 +9,7 @@ public class enemy_destroy : MonoBehaviour {
     public int health;
     public int score_amount;
     bool spawned_pickup = false;
+    float taken_amount;
 
 	// Use this for initialization
 	void Start () {
@@ -21,6 +22,17 @@ public class enemy_destroy : MonoBehaviour {
         if(health <= 0)
         {
             Die();
+        }
+    }
+
+    public void Take_Health_Over_Time(float _amount)
+    {
+        taken_amount += _amount;
+
+        if(taken_amount >= 1)
+        {
+            Take_Health((int)taken_amount);
+            taken_amount = 0;
         }
     }
 	

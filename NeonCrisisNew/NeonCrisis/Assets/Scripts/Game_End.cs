@@ -5,7 +5,7 @@ using UnityEngine;
 public class Game_End : MonoBehaviour {
 
     public static Game_End game_end_instance;
-    float end_time;
+    float end_time; //what the hell was this for?
     public GameObject game_over_object;
 
 	// Use this for initialization
@@ -16,14 +16,14 @@ public class Game_End : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Time.fixedTime > end_time)
+		/*if(Time.fixedTime > end_time)
         {
             Player_Health health = FindObjectOfType<Player_Health>();
             if (health != null)
             {
                 health.On_End();
             }
-        }
+        }*/
 	}
 
     public void On_End()

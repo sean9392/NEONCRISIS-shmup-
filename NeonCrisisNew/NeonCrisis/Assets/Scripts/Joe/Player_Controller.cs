@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player_Controller : MonoBehaviour {
     public GameObject laser_weapon;
+    GameObject instantiated_laser;
+    Laser_Weapon laser_weapon_script;
     public float move_speed;
     public Transform shot_position, shot_position_two, shot_position_three, shot_position_four, shot_position_five;
     Rigidbody2D rigidbody;
@@ -31,6 +33,14 @@ public class Player_Controller : MonoBehaviour {
 	void Update () {
         Handle_User_Input();
         Check_Bounds();
+        if(Laser_Power_Holder.laser_power_holder_instance != null && instantiated_laser != null)
+        {
+            Laser_Power_Holder.laser_power_holder_instance.Take_Power_Over_Time(2 * Time.deltaTime);
+            if (Laser_Power_Holder.laser_power_holder_instance.Get_Power() <= 0)
+            {
+                End_Laser();
+            }
+        }
 	}
 
     void Handle_User_Input()
@@ -46,6 +56,10 @@ public class Player_Controller : MonoBehaviour {
         if (Input.GetButtonDown("Fire2"))
         {
             Fire_Laser();
+        }
+        else if(Input.GetButtonUp("Fire2"))
+        {
+            End_Laser();
         }
     }
 
@@ -98,28 +112,21 @@ public class Player_Controller : MonoBehaviour {
 
     void Fire_Laser()
     {
-        if(Laser_Power_Holder.laser_power_holder_instance != null && Laser_Power_Holder.laser_power_holder_instance.Get_Power() >= 10)
+        if(Laser_Power_Holder.laser_power_holder_instance != null && Laser_Power_Holder.laser_power_holder_instance.Get_Power() > 0 && instantiated_laser == null)
         {
             Vector3 position = this.transform.position;
             position.y += 5;
-            GameObject laser = Instantiate(laser_weapon, position, Quaternion.identity) as GameObject;
-            Destroy(laser, 1);
-            Laser_Power_Holder.laser_power_holder_instance.Take_Power(10);
+            instantiated_laser = Instantiate(laser_weapon, position, Quaternion.identity) as GameObject;
+            laser_weapon_script = instantiated_laser.GetComponent<Laser_Weapon>();
+            instantiated_laser.transform.SetParent(this.transform);
+        }
+    }
 
-            //Ray2D ray = new Ray2D(this.transform.position, this.transform.up);
-            RaycastHit2D[] hit_out = Physics2D.CircleCastAll(this.transform.position, 0.5f, this.transform.up, 10);
-            //RaycastHit2D[] hit_out = Physics2D.RaycastAll(position, this.transform.up, 10);
-            for(int i=  0; i < hit_out.Length; i++)
-            {
-                if(hit_out[i].collider != null)
-                {
-                    enemy_destroy enemy = hit_out[i].collider.GetComponent<enemy_destroy>();
-                    if(enemy != null)
-                    {
-                        enemy.Take_Health(100);
-                    }
-                }
-            }
+    void End_Laser()
+    {
+        if(laser_weapon_script != null)
+        {
+            laser_weapon_script.Stop_Firing();
         }
     }
     
