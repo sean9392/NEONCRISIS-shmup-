@@ -35,23 +35,18 @@ public class Scanner : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D coll)
 	{
-		
-		if (coll.gameObject.GetComponent<Enemy_base> ()) 
+		if (coll.gameObject.GetComponent<Moving_Spawner> ()) 
 		{
-			scannerImage.sprite = coll.gameObject.GetComponent<SpriteRenderer> ().sprite;
-			scannerImage.material = coll.gameObject.GetComponent<SpriteRenderer> ().material;
+			Debug.Log ("Coll");
+			scannerImage.sprite = coll.gameObject.GetComponent<Moving_Spawner> ().enemy_to_spawn.GetComponent<SpriteRenderer> ().sprite;
+			scannerImage.material = coll.gameObject.GetComponent<Moving_Spawner> ().enemy_to_spawn.GetComponent<SpriteRenderer> ().sharedMaterial;
+			//scannerImage.sprite = coll.gameObject.GetComponent<SpriteRenderer> ().sprite;
+			//scannerImage.material = coll.gameObject.GetComponent<SpriteRenderer> ().material;
 			rot += 90;
 		}
 
 	}
 
 
-	void OnTriggerStay2D(Collider2D coll)
-	{
-		if (coll.gameObject.GetComponent<Boss> ()) 
-		{
-			
 
-		}
-	}
 }
