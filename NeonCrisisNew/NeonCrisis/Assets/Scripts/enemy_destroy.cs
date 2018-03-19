@@ -19,9 +19,20 @@ public class enemy_destroy : MonoBehaviour {
     public void Take_Health(int _amount)
     {
         health -= _amount;
+        Show_Hit();
         if(health <= 0)
         {
             Die();
+        }
+    }
+
+    void Show_Hit()
+    {
+        if (explosion != null)
+        {
+            GameObject explosion_inst = Instantiate(explosion, this.transform.position, Quaternion.identity) as GameObject;
+            Destroy(explosion_inst, 4);
+
         }
     }
 
@@ -57,12 +68,7 @@ public class enemy_destroy : MonoBehaviour {
 
     void Die()
     {
-        if (explosion != null)
-        {
-            GameObject explosion_inst = Instantiate(explosion, this.transform.position, Quaternion.identity) as GameObject;
-            Destroy(explosion_inst, 4);
-
-        }
+        Show_Hit();  
         if (Random.Range(0, 2) == 1 && pickups.Length != 0 && spawned_pickup == false)
         {
             Instantiate(pickups[Random.Range(0, pickups.Length)], this.transform.position, Quaternion.identity);

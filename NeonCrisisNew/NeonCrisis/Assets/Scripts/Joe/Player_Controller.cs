@@ -133,7 +133,12 @@ public class Player_Controller : MonoBehaviour {
     public void Update_Pickup_Index()
     {
         pickup_index++;
-        if(pickup_index == 2)
+        
+        if (Weapon_Display.weapon_display != null)
+        {
+            Weapon_Display.weapon_display.Update_Weapon(pickup_index);
+        }
+        if (pickup_index == 2)
         {
             shot_delay /= 2;
         }

@@ -72,6 +72,7 @@ public class Pickup_Controller : MonoBehaviour {
     void Add_Score()
     {
         score_multiplier *= 2;
+        score_multiplier = Mathf.Clamp(score_multiplier, 1, 128);
         UI_Multiplier.ui_multiplier_instance.Update_Multiplier(score_multiplier);
     }
 

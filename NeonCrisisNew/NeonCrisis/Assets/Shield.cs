@@ -21,14 +21,26 @@ public class Shield : MonoBehaviour {
     {
         this.transform.position = this.transform.parent.transform.position;
 
-        if (Input.GetButtonDown("Fire3"))
+        if (Input.GetButton("Fire3"))
         {
-            if(Laser_Power_Holder.laser_power_holder_instance != null && Laser_Power_Holder.laser_power_holder_instance.Get_Power() >= shield_cost)
+            if(Laser_Power_Holder.laser_power_holder_instance != null && Laser_Power_Holder.laser_power_holder_instance.Get_Power() > 0 && active == false)
             {
-                Laser_Power_Holder.laser_power_holder_instance.Take_Power(shield_cost);
-                StartCoroutine(Activate_Shield());
+                Activate();
+            }
+            if(Laser_Power_Holder.laser_power_holder_instance != null && active ==true)
+            {
+                Laser_Power_Holder.laser_power_holder_instance.Take_Power_Over_Time(shield_cost * Time.deltaTime);
             }
         }
+        if(Input.GetButtonUp("Fire3"))
+        {
+            Deactivate();
+        }
+        if(Laser_Power_Holder.laser_power_holder_instance != null && Laser_Power_Holder.laser_power_holder_instance.Get_Power() <= 0)
+        {
+            Deactivate();
+        }
+
     }
 
     void Activate()
