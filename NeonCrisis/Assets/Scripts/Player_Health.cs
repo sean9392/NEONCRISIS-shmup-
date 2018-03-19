@@ -8,6 +8,9 @@ public class Player_Health : MonoBehaviour {
     public int health = 24;
     public Shield shield;
     Pickup_Controller pickup_controller;
+    bool low_shown = false;
+    public int low_level;
+    public GameObject low_health_object;
 
     // Use this for initialization
     void Start () {
@@ -16,16 +19,29 @@ public class Player_Health : MonoBehaviour {
 
     public void Add_Health(int _amount)
     {
+
         health += _amount;
+        print(health + " " + low_level);
         health = Mathf.Clamp(health, 0, 24);
+        if(health >= low_level)
+        {
+            print("MAKE ADD");
+            low_shown = false;
+        }
         UI_Health.ui_health_instance.Update_Health(health);
     }
 	
 	// Update is called once per frame
 	void OnCollisionEnter2D (Collision2D col) {
 		if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Pew" && shield.active == false) {
+            if (health <= low_level && low_shown == false)
+            {
+                GameObject low_obj = Instantiate(low_health_object, low_health_object.transform.position, Quaternion.identity);
+                Destroy(low_obj, 1);
+                low_shown = true;
+            }
 
-            if(pickup_controller == null)
+            if (pickup_controller == null)
             {
                 pickup_controller = GetComponent<Pickup_Controller>();
             }

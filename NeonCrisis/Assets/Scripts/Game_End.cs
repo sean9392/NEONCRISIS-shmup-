@@ -7,6 +7,7 @@ public class Game_End : MonoBehaviour {
     public static Game_End game_end_instance;
     float end_time; //what the hell was this for?
     public GameObject game_over_object;
+    public GameObject game_won_text;
 
 	// Use this for initialization
 	void Start () {
@@ -38,9 +39,17 @@ public class Game_End : MonoBehaviour {
         {
             score_updater.On_End();
         }
-        if(game_over_object != null)
+        if(game_over_object != null && game_won_text != null)
         {
-            game_over_object.SetActive(true);
+            Player_Health health = FindObjectOfType<Player_Health>();
+            if(health == null || health.health <= 0)
+            {
+                game_over_object.SetActive(true);
+            }
+            else
+            {
+                game_won_text.SetActive(true);
+            }
         }
         yield return new WaitForSeconds(5);
         Save_Highscore_Data highscore_data = FindObjectOfType<Save_Highscore_Data>();

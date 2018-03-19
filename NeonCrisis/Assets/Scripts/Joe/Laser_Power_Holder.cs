@@ -30,7 +30,6 @@ public class Laser_Power_Holder : MonoBehaviour
 
     public void Add_Power(int _amount)
     {
-        print(power_level);
         if (power_level == 9 && laser_ready != null)
         {
             GameObject laser_object = Instantiate(laser_ready, laser_ready.transform.position, Quaternion.identity);
