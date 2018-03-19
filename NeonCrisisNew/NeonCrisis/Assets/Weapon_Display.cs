@@ -6,7 +6,7 @@ public class Weapon_Display : MonoBehaviour {
 
     public static Weapon_Display weapon_display;
     public GameObject[] level_display_objects;
-    int cuurent_power = 0;
+    int current_power = 0;
 
     private void Start()
     {
@@ -16,18 +16,16 @@ public class Weapon_Display : MonoBehaviour {
 
     public void Update_Weapon(int _power)
     {
-        for(int i = 0; i <= level_display_objects.Length - 1; i++)
+        current_power++;
+        for(int i = 0; i < level_display_objects.Length; i++)
         {
-            if(i <= _power)
+            if(i < current_power)
             {
                 level_display_objects[i].SetActive(true);
             }
             else
             {
-                if (level_display_objects[i] != null)
-                {
-                    level_display_objects[i].SetActive(false);
-                }
+                level_display_objects[i].SetActive(false);
             }
         }
     }
