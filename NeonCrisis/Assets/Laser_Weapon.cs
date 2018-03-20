@@ -24,6 +24,10 @@ public class Laser_Weapon : MonoBehaviour {
                 print(enemy_health.Count);
             }
         }
+        if(collision.GetComponent<Basic_Bullet>() != null)
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)

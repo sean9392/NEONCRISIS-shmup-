@@ -7,16 +7,28 @@ public class Moving_Spawner : MonoBehaviour {
     public spawn_types spawn_type;
     public enum shot_types { circle_shot, aimed_shot, loop_shot, straight_shot};
     public shot_types shot_type;
+    public GameObject[] enemies;
     public GameObject enemy_to_spawn;
     public GameObject fire_pattern;
     public int health;
     public int score = 1;
     float spawn_time;
     public int angle_skip = 15;
+    float initial_height;
 
     private void Start()
     {
+        initial_height = this.transform.position.y;
         spawn_time = (Time.fixedTime) + (this.transform.position.y / 1.5f) - (6 / 1.5f);
+    }
+
+    public void Set_Random()
+    {
+        spawn_type = (spawn_types)Random.Range(0, 10);
+        shot_type = (shot_types)Random.Range(0, 4);
+        enemy_to_spawn = enemies[Random.Range(0, enemies.Length)];
+        health = 1;
+        score = 500;
     }
 
     private void Update()
@@ -59,7 +71,7 @@ public class Moving_Spawner : MonoBehaviour {
         fire_pattern.transform.SetParent(enemy_inst.transform);
         //fire_pattern_inst.transform.localPosition = Vector3.zero;
         enemy_destroy enemy_destruction = enemy_inst.GetComponent<enemy_destroy>();
-        enemy_destruction.health = health;
+        enemy_destruction.health = health + (int)(initial_height / 50);
         enemy_destruction.score_amount = score;
 
         Destroy(this.gameObject);

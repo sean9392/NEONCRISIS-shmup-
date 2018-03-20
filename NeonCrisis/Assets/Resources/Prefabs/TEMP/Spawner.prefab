@@ -67,4 +67,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d9bbb19c1a070548ad088fe44ae51c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawn_type: 0
+  shot_type: 0
+  enemies:
+  - {fileID: 1870090014636174, guid: 0a29a54199ca75d40ab2102782cbd07b, type: 2}
+  - {fileID: 1207753572016200, guid: 33a70b9328059c445b3e0e95b59fde77, type: 2}
+  - {fileID: 1148846523631606, guid: 8c088bd267d1c934fa8a977296b144c4, type: 2}
+  - {fileID: 1587363484659572, guid: 43734280791860e4bb4e5b425b21ad73, type: 2}
+  - {fileID: 1946329653281718, guid: 486ff6457a5493740838fe3a04f8be65, type: 2}
+  - {fileID: 1701239686851592, guid: 884cd808e46af6b48b1a19a6e6b85786, type: 2}
+  - {fileID: 1607452943129970, guid: 0e4d6ee105b57ea4f99a6570c88a61bb, type: 2}
+  - {fileID: 1026709655341970, guid: 5832827df83c2da4183c692b631b0b90, type: 2}
+  - {fileID: 1209244700940960, guid: 6cb20e42e07dc0349b58f86e48c59b27, type: 2}
+  - {fileID: 1955657006062258, guid: 762875677e8409c4580c9e49c7fd0608, type: 2}
   enemy_to_spawn: {fileID: 0}
+  fire_pattern: {fileID: 0}
+  health: 0
+  score: 1
+  angle_skip: 15

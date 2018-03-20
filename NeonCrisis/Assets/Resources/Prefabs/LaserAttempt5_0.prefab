@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 61544788084009948}
   - component: {fileID: 50443234802488242}
   - component: {fileID: 114021773150817630}
+  - component: {fileID: 114615414334310456}
   m_Layer: 0
   m_Name: LaserAttempt5_0
   m_TagString: Untagged
@@ -118,6 +119,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
+--- !u!114 &114615414334310456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704290497566688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0d3d9641ea5a747b8ee505837dc453, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!212 &212629432361810870
 SpriteRenderer:
   m_ObjectHideFlags: 1

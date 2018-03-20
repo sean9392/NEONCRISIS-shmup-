@@ -9,10 +9,13 @@ public class Boss : MonoBehaviour {
     public GameObject[] fire_points;
     bool in_position = false;
     Vector3 initial_position;
+    public GameObject spawner;
+    public float spawn_delay;
 
 	// Use this for initialization
 	void Start () {
         StartCoroutine(Move_To_Position());
+        StartCoroutine(Spawn_Helpers());
 	}
 	
 	// Update is called once per frame
@@ -46,6 +49,19 @@ public class Boss : MonoBehaviour {
                 this.transform.position = Vector3.MoveTowards(this.transform.position, target, evade_speed * Time.deltaTime);
                 yield return new WaitForEndOfFrame();
             }
+        }
+    }
+
+    IEnumerator Spawn_Helpers()
+    {
+        while(true)
+        {
+            GameObject spawner_inst = Instantiate(spawner, new Vector3(Random.Range(-2f, 2f), this.transform.position.y + 3, 0), Quaternion.identity) as GameObject;
+            Move_Down mover = spawner_inst.AddComponent<Move_Down>();
+            mover.speed = 8;            
+            Moving_Spawner spawner_script = spawner_inst.GetComponent<Moving_Spawner>();
+            spawner_script.Set_Random();
+            yield return new WaitForSeconds(spawn_delay);
         }
     }
 
