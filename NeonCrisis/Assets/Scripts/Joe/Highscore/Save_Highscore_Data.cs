@@ -16,6 +16,32 @@ public struct Score_Data
 
 public class Save_Highscore_Data : MonoBehaviour {
 
+    float hold;
+
+    private void Update()
+    {
+        if(Input.GetButton("Mute"))
+        {
+            hold += Time.deltaTime;
+        }
+        else
+        {
+            hold = 0.0f;
+        }
+
+        if (hold >= 15)
+        {
+            Reset_Highscores();
+        }
+    }
+
+    void Reset_Highscores()
+    {
+        PlayerPrefs.SetInt("Highscore", 0);
+        PlayerPrefs.SetInt("Current_Score", 0);
+        Write_Default_Content();
+    }
+
     public void Add_Highscore(string _name, int _score)
     {
         Score_Data score = new Score_Data(_name, _score);

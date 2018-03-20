@@ -17,3 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Team Scenes/Jamie/High_Score_test 2.unity
     guid: 64a62c21c355cd842a09c8faa5cef44a
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Attract_Mode.unity
+    guid: d9d873500993cb34984cec3638ba2594
+  - enabled: 1
+    path: Assets/Scenes/Team Scenes/Jamie/Credits.unity
+    guid: b004207587a032b44b74c14ff8787b3f
