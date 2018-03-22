@@ -6,6 +6,7 @@ public class enemy_destroy : MonoBehaviour {
 
     public GameObject explosion, splash;
     public GameObject[] pickups;
+    public int max_health;
     public int health;
     public int score_amount;
     bool spawned_pickup = false;
@@ -13,13 +14,15 @@ public class enemy_destroy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+        max_health = health;
+        Update_UI();
 	}
 
     public void Take_Health(int _amount)
     {
         health -= _amount;
         Show_Hit();
+        Update_UI();
         if(health <= 0)
         {
             Die();
@@ -62,9 +65,15 @@ public class enemy_destroy : MonoBehaviour {
                     Destroy(splash_inst, 1);
                 }
                 health--;
+                Update_UI();
             }
 		}
 	}
+
+    public virtual void Update_UI()
+    {
+        
+    }
 
     void Die()
     {

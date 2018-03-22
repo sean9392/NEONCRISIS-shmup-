@@ -37,7 +37,6 @@ public class Scanner : MonoBehaviour {
 	{
 		if (coll.gameObject.GetComponent<Moving_Spawner> ()) 
 		{
-			Debug.Log ("Coll");
 			scannerImage.sprite = coll.gameObject.GetComponent<Moving_Spawner> ().enemy_to_spawn.GetComponent<SpriteRenderer> ().sprite;
 			scannerImage.material = coll.gameObject.GetComponent<Moving_Spawner> ().enemy_to_spawn.GetComponent<SpriteRenderer> ().sharedMaterial;
 			//scannerImage.sprite = coll.gameObject.GetComponent<SpriteRenderer> ().sprite;

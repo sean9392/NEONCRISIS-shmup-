@@ -7,7 +7,7 @@ public class UI_Letter_Selection : MonoBehaviour {
 
     Save_Highscore_Data highscore_data;
 
-    string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_";
 
     int name_position = 0;
     int letter_index = 0;
@@ -66,7 +66,7 @@ public class UI_Letter_Selection : MonoBehaviour {
     void Stick_Up()
     {
         letter_index++;
-        if(letter_index > 25)
+        if(letter_index > 26)
         {
             letter_index = 0;
         }
@@ -78,7 +78,7 @@ public class UI_Letter_Selection : MonoBehaviour {
         letter_index--;
         if(letter_index < 0)
         {
-            letter_index = 25;
+            letter_index = 26;
         }
         resting = false;
     }

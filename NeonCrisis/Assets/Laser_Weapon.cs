@@ -21,7 +21,6 @@ public class Laser_Weapon : MonoBehaviour {
                 enemy_objects.Add(collision.gameObject);
                 enemy_health.Add(collision.gameObject.GetComponent<enemy_destroy>());
                 collision.gameObject.GetComponent<enemy_destroy>().Take_Health_Over_Time(damage * Time.deltaTime);
-                print(enemy_health.Count);
             }
         }
         if(collision.GetComponent<Basic_Bullet>() != null)

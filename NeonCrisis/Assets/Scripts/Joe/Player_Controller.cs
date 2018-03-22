@@ -22,7 +22,6 @@ public class Player_Controller : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        
         init_shot_delay = shot_delay;
         rigidbody = GetComponent<Rigidbody2D>();
         min = new Vector3(-3.4f, -4.65f, 0f);
@@ -35,7 +34,7 @@ public class Player_Controller : MonoBehaviour {
         Check_Bounds();
         if(Laser_Power_Holder.laser_power_holder_instance != null && instantiated_laser != null)
         {
-            Laser_Power_Holder.laser_power_holder_instance.Take_Power_Over_Time(2 * Time.deltaTime);
+            Laser_Power_Holder.laser_power_holder_instance.Take_Power_Over_Time(4 * Time.deltaTime);
             if (Laser_Power_Holder.laser_power_holder_instance.Get_Power() <= 0)
             {
                 End_Laser();

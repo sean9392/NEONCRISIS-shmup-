@@ -9,7 +9,7 @@ public class Load_Credits_Scene : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        StartCoroutine(Load_Credits());
 	}
 
     private void Update()

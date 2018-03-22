@@ -67,7 +67,6 @@ public class Boss : MonoBehaviour {
 
     private void OnDestroy()
     {
-        print("DESTROY");
         if (Game_End.game_end_instance != null)
         {
             Game_End.game_end_instance.On_End();

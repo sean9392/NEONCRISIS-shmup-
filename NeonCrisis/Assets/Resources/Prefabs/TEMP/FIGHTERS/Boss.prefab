@@ -20,8 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4983237927120284}
   - component: {fileID: 114002073349778088}
-  - component: {fileID: 114827657058465450}
   - component: {fileID: 58985035123336730}
+  - component: {fileID: 114623658016558470}
   m_Layer: 9
   m_Name: Boss
   m_TagString: Untagged
@@ -393,7 +393,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1042960633344502}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.867302, y: 271.25745, z: 0}
+  m_LocalPosition: {x: -12.393663, y: -2.6316905, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4496451696002408}
@@ -877,6 +877,23 @@ MonoBehaviour:
   shot_delay: 2
   pew_source: {fileID: 82772508168441886}
   skip_destroy: 1
+--- !u!114 &114623658016558470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1042960633344502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b72d331b8ee85347b5e36af7fe64bb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 100012, guid: 160925a6fe2664f2a978566b819f0af0, type: 2}
+  splash: {fileID: 100012, guid: d696df58e66919040b179bb9273ce49d, type: 2}
+  pickups: []
+  max_health: 0
+  health: 500
+  score_amount: 250000
 --- !u!114 &114740115830200884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -925,22 +942,6 @@ MonoBehaviour:
   shot_delay: 3
   pew_source: {fileID: 82635322160068874}
   skip_destroy: 1
---- !u!114 &114827657058465450
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1042960633344502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7804bf674210bd4fa9119371c4fb4e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 100012, guid: 160925a6fe2664f2a978566b819f0af0, type: 2}
-  splash: {fileID: 100012, guid: d696df58e66919040b179bb9273ce49d, type: 2}
-  pickups: []
-  health: 500
-  score_amount: 250000
 --- !u!212 &212585905007626580
 SpriteRenderer:
   m_ObjectHideFlags: 1

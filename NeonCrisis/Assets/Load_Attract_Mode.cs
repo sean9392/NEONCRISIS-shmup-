@@ -14,9 +14,9 @@ public class Load_Attract_Mode : MonoBehaviour {
 
     private void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if(Input.GetButtonDown("Submit") || Input.GetButtonDown("Fire1"))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
     }
 
