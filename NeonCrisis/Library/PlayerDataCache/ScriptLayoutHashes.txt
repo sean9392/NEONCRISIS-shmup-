@@ -1,4 +1,4 @@
-WindowsStandalone
+OSXStandalone
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RotateFlareHolder
 27ddc4b4108cc4f43623a73415f22b2c Assembly-CSharp.dll:.Circle_Shot
 4a35f39b86f705c1fe217e2ab6c1dc57 Assembly-CSharp.dll:.Follow_Bezier
