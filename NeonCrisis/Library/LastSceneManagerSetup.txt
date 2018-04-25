@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Team Scenes/NeonCrisisFinalScene.unity
+- path: Assets/Scenes/Team Scenes/Jamie/Test How To Screen.unity
   isLoaded: 1
   isActive: 1
